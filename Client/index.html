@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UTH Chatbot</title>
+    <style>
+      /* Tổng thể */
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        /* Sử dụng gradient dựa trên màu nền của ảnh */
+        background: linear-gradient(135deg, #1e9e99, #125d5a);
+        color: #333;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        margin: 0;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+
+      /* Khung chat chính */
+      .chat-container {
+        width: 100%;
+        max-width: 600px;
+        background-color: #ffffff;
+        border-radius: 16px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        display: flex;
+        flex-direction: column;
+        overflow: hidden; /* Đảm bảo các thành phần con không bị tràn ra ngoài */
+      }
+
+      /* Logo */
+      .logo {
+        max-width: 200px; /* Điều chỉnh kích thước logo */
+        margin: 25px auto 20px; /* Căn giữa và tạo khoảng cách */
+        display: block;
+      }
+
+      .chat-interface {
+        padding: 0 25px 25px;
+      }
+
+      /* Khu vực hiển thị kết quả */
+      #response-area {
+        background-color: #f7f9fa;
+        border: 1px solid #e8e8e8;
+        border-radius: 12px;
+        padding: 20px;
+        min-height: 200px;
+        max-height: 400px;
+        overflow-y: auto; /* Thêm thanh cuộn khi nội dung dài */
+        margin-bottom: 20px;
+        line-height: 1.6;
+      }
+
+      #response-area p {
+        margin: 0 0 12px;
+        color: #454545;
+      }
+      #response-area p:last-child {
+        margin-bottom: 0;
+      }
+      #response-area p.user-message {
+        text-align: right;
+        color: #005f5f;
+      }
+
+      /* Khu vực nhập liệu */
+      .input-area {
+        display: flex;
+        gap: 10px; /* Khoảng cách giữa input và button */
+      }
+
+      /* Ô nhập liệu */
+      #userMessage {
+        flex-grow: 1; /* Chiếm phần lớn không gian */
+        padding: 15px 20px;
+        border: 1px solid #dcdcdc;
+        border-radius: 12px;
+        font-size: 1rem;
+        outline: none;
+        transition: all 0.3s ease;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+      }
+
+      #userMessage:focus {
+        border-color: #008c8c; /* Màu xanh teal khi focus */
+        box-shadow: 0 0 0 4px rgba(0, 140, 140, 0.2);
+      }
+
+      /* Nút Gửi */
+      #apiButton {
+        background-color: #008c8c; /* Màu xanh teal từ nút trong ảnh */
+        color: white;
+        border: none;
+        padding: 15px 25px;
+        border-radius: 12px;
+        font-size: 1rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease,
+          box-shadow 0.3s ease;
+        box-shadow: 0 4px 10px rgba(0, 140, 140, 0.25);
+      }
+
+      #apiButton:hover {
+        background-color: #006a6a; /* Đậm hơn khi hover */
+        transform: translateY(-2px);
+        box-shadow: 0 6px 15px rgba(0, 140, 140, 0.3);
+      }
+
+      #apiButton:active {
+        transform: translateY(0);
+        box-shadow: 0 2px 5px rgba(0, 140, 140, 0.2);
+      }
+      /* Hiệu ứng trượt cho tin nhắn */
+      @keyframes slideInUser {
+        from {
+          transform: translateX(100%);
+          opacity: 0;
+        }
+        to {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
+
+      @keyframes slideInBot {
+        from {
+          transform: translateX(-100%);
+          opacity: 0;
+        }
+        to {
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
+
+      .user-message {
+        animation: slideInUser 0.4s ease-out;
+      }
+
+      .bot-message {
+        animation: slideInBot 0.4s ease-out;
+      }
+
+      /* Hiệu ứng typing "Bot đang trả lời..." */
+      .typing .dot {
+        animation: blink 1s infinite;
+        opacity: 0;
+      }
+
+      .typing .dot.one {
+        animation-delay: 0s;
+      }
+      .typing .dot.two {
+        animation-delay: 0.2s;
+      }
+      .typing .dot.three {
+        animation-delay: 0.4s;
+      }
+
+      @keyframes blink {
+        0%,
+        100% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="chat-container">
+      <img src="logo.png" alt="Logo Trường Đại học GTVT TP.HCM" class="logo" />
+
+      <div class="chat-interface">
+        <div id="response-area">
+          <p><strong>UTHBot:</strong> Chào bạn, tôi có thể giúp gì cho bạn?</p>
+        </div>
+
+        <div class="input-area">
+          <input
+            type="text"
+            id="userMessage"
+            placeholder="Nhập câu hỏi của bạn..."
+          />
+          <button id="apiButton" onclick="callAPI()">Gửi</button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function callAPI() {
+        const messageInput = document.getElementById("userMessage");
+        const responseArea = document.getElementById("response-area");
+        const message = messageInput.value.trim();
+
+        if (!message) return;
+
+        // 👉 Hiển thị tin nhắn người dùng
+        const userPara = document.createElement("p");
+        userPara.classList.add("user-message");
+        userPara.innerHTML = `<strong>Bạn:</strong> ${message}`;
+        responseArea.appendChild(userPara);
+
+        // 👉 Reset input
+        messageInput.value = "";
+
+        // 👉 Tạo hiệu ứng "Bot đang suy nghĩ..."
+        const botTyping = document.createElement("p");
+        botTyping.id = "bot-typing";
+        botTyping.innerHTML =
+          `<strong>UTHBot:</strong> <span class="typing">Đang suy nghĩ ` +
+          `<span class="dot one">.</span>` +
+          `<span class="dot two">.</span>` +
+          `<span class="dot three">.</span></span>`;
+        responseArea.appendChild(botTyping);
+        responseArea.scrollTop = responseArea.scrollHeight;
+
+        messageInput.disabled = true;
+        document.getElementById("apiButton").disabled = true;
+
+        // ✅ Đợi 100ms để trình duyệt kịp render hiệu ứng "Đang suy nghĩ..."
+        requestAnimationFrame(() => {
+          setTimeout(() => {
+            fetch("http://127.0.0.1:5000/chat", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify({ message: message }),
+            })
+              .then((res) => {
+                if (!res.ok) throw new Error("Lỗi từ server!");
+                messageInput.disabled = false;
+                document.getElementById("apiButton").disabled = false;
+                messageInput.focus();
+
+                return res.json();
+              })
+              .then((data) => {
+                const typingElement = document.getElementById("bot-typing");
+                if (typingElement) typingElement.remove();
+
+                const botMessage =
+                  data.bot_response || "Không có phản hồi từ chatbot.";
+
+                // 👉 Hiệu ứng slide-in từ bên trái (sau khi xóa 'typing')
+                const botPara = document.createElement("p");
+                botPara.classList.add("bot-message");
+                botPara.innerHTML = `<strong>UTHBot:</strong> ${botMessage}`;
+                responseArea.appendChild(botPara);
+                responseArea.scrollTop = responseArea.scrollHeight;
+                messageInput.disabled = false;
+                document.getElementById("apiButton").disabled = false;
+                messageInput.focus();
+              })
+              .catch((err) => {
+                const typingElement = document.getElementById("bot-typing");
+                if (typingElement) typingElement.remove();
+
+                console.error("Lỗi gửi request:", err);
+                const errorPara = document.createElement("p");
+                errorPara.innerHTML = `<strong>UTHBot:</strong> Không thể kết nối tới server Flask.`;
+                errorPara.style.color = "#ff6347";
+                responseArea.appendChild(errorPara);
+                responseArea.scrollTop = responseArea.scrollHeight;
+                messageInput.disabled = false;
+                document.getElementById("apiButton").disabled = false;
+                messageInput.focus();
+              });
+          }, 2000); // delay nhỏ
+        });
+      }
+
+      // 👉 Cho phép nhấn Enter để gửi
+      document
+        .getElementById("userMessage")
+        .addEventListener("keydown", function (e) {
+          if (e.key === "Enter" && !this.disabled) {
+            e.preventDefault();
+            callAPI();
+          }
+        });
+    </script>
+  </body>
+</html>

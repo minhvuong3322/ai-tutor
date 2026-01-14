@@ -1,0 +1,610 @@
+[
+  {
+    "keywords": ["thank", "cảm ơn", "oke"],
+    "response": "Không có gì, mình rất vui được giúp đỡ bạn!\nNếu bạn cần thêm thông tin gì, hãy cứ hỏi nhé!",
+    "priority": 1
+  },
+  {
+    "keywords": ["chào", "hi", "hello"],
+    "response": "Chào bạn mình là Chatbot của Trường Đại học Giao thông Vận tải TP.HCM (UTH). Bạn cần thông tin gì về trường?",
+    "priority": 1
+  },
+  {
+    "keywords": ["thành lập", "năm nào", "lịch sử", "ra đời"],
+    "response": "Trường Đại học Giao thông Vận tải TP.HCM (UTH) được thành lập năm 2001 trên cơ sở nâng cấp cơ sở phía Nam của Đại học Giao thông Vận tải.",
+    "priority": 1
+  },
+  {
+    "keywords": ["cơ sở", "địa chỉ", "campus", "vị trí"],
+    "response": "UTH có 2 cơ sở chính: Cơ sở 1 tại 2 Võ Oanh (D3), P.25, Q. Bình Thạnh và Cơ sở 2 tại 450-451 Lê Văn Việt, Q.9, TP.HCM. Ngoài ra còn có các điểm liên kết đào tạo tại các tỉnh.",
+    "priority": 1
+  },
+  {
+    "keywords": ["ngành học", "chuyên ngành", "đào tạo", "khoa"],
+    "response": "UTH đào tạo đa dạng các ngành: Kỹ thuật giao thông, Kinh tế vận tải, Công nghệ thông tin, Cơ khí, Điện-Điện tử, Quản trị kinh doanh, Logistics, Kỹ thuật xây dựng công trình giao thông, Kỹ thuật ô tô, Kỹ thuật môi trường, Điều khiển tự động hóa.",
+    "priority": 1
+  },
+  {
+    "keywords": ["học phí", "chi phí học", "mức phí"],
+    "response": "Học phí năm 2025 từ 13-20 triệu đồng/năm, tùy ngành học và chương trình đào tạo cụ thể.",
+    "priority": 1
+  },
+  {
+    "keywords": ["học bổng", "hỗ trợ học tập", "miễn giảm"],
+    "response": "UTH cung cấp nhiều loại học bổng: khuyến khích học tập (GPA ≥ 3.0/4.0), học bổng doanh nghiệp, hỗ trợ hoàn cảnh khó khăn, và học bổng toàn phần cho sinh viên xuất sắc đặc biệt.",
+    "priority": 1
+  },
+  {
+    "keywords": ["ký túc xá", "ktx", "chỗ ở", "nội trú"],
+    "response": "UTH có ký túc xá tại Cơ sở 1 (Q. Bình Thạnh) chứa ~1.500 sinh viên, đầy đủ tiện nghi. Chi phí 300.000-500.000 VNĐ/tháng tùy loại phòng. Ưu tiên sinh viên xa nhà và hoàn cảnh khó khăn.",
+    "priority": 1
+  },
+  {
+    "keywords": ["tuyển sinh", "xét tuyển", "đăng ký", "nhập học"],
+    "response": "Tuyển sinh từ tháng 4-8 hàng năm. Xét tuyển dựa trên: điểm thi THPT Quốc gia, học bạ THPT, và kỳ thi đánh giá năng lực ĐHQG TP.HCM. Điểm chuẩn 2024: 16-23 điểm tùy ngành.",
+    "priority": 1
+  },
+  {
+    "keywords": ["liên thông", "chuyển cấp", "từ cao đẳng"],
+    "response": "UTH có chương trình đào tạo liên thông từ trung cấp, cao đẳng lên đại học cho các ngành kỹ thuật và kinh tế với lịch học linh hoạt.",
+    "priority": 1
+  },
+  {
+    "keywords": ["quốc tế", "2+2", "trao đổi", "du học"],
+    "response": "UTH liên kết quốc tế với Đại học Tongmyong (Hàn Quốc), Đại học Giao thông Vận tải Đài Loan (chương trình 2+2), và hỗ trợ đăng ký học bổng Erasmus+, AUN.",
+    "priority": 1
+  },
+  {
+    "keywords": ["thời gian học", "thời khóa biểu", "kéo dài"],
+    "response": "Hệ đại học chính quy: 4 năm (một số ngành kỹ thuật 4.5 năm). Có chương trình đào tạo từ xa cho Quản trị kinh doanh và Logistics.",
+    "priority": 1
+  },
+  {
+    "keywords": ["câu lạc bộ", "hoạt động ngoại khóa", "sinh viên"],
+    "response": "UTH có đa dạng CLB: Kỹ thuật giao thông, Văn nghệ, Tình nguyện, Công nghệ thông tin, Khởi nghiệp, Tiếng Anh, và các đội tình nguyện Mùa Hè Xanh, Xuân Tình Nguyện.",
+    "priority": 1
+  },
+  {
+    "keywords": ["liên hệ", "phòng đào tạo", "tư vấn"],
+    "response": "Liên hệ Phòng Đào tạo: (028) 3512-0756, email: daotao@utc2.edu.vn. Trung tâm Hỗ trợ Sinh viên tại Cơ sở 1, Q. Bình Thạnh cung cấp tư vấn toàn diện.",
+    "priority": 1
+  },
+  {
+    "keywords": ["việc làm", "thực tập", "career", "tuyển dụng"],
+    "response": "Trung tâm Quan hệ Doanh nghiệp tổ chức Ngày hội Việc làm hàng năm, hỗ trợ tìm thực tập tại các đối tác như Tổng Công ty Đường sắt VN, CIENCO, các công ty logistics.",
+    "priority": 1
+  },
+  {
+    "keywords": ["thạc sĩ", "tiến sĩ", "sau đại học", "cao học"],
+    "response": "UTH đào tạo thạc sĩ và tiến sĩ các ngành: Kỹ thuật giao thông, Kinh tế vận tải, Kỹ thuật xây dựng công trình giao thông.",
+    "priority": 1
+  },
+  {
+    "keywords": ["cơ sở vật chất", "thư viện", "phòng thí nghiệm"],
+    "response": "UTH có thư viện hiện đại (mở cửa đến 20:00), phòng thí nghiệm chuyên ngành (Kỹ thuật giao thông, CNTT, Cơ khí, Điện-Điện tử), phòng gym, hệ thống Wi-Fi miễn phí.",
+    "priority": 1
+  },
+  {
+    "keywords": ["công nghệ thông tin", "cntt", "ai", "lập trình"],
+    "response": "Ngành CNTT có chuyên ngành Trí tuệ nhân tạo, Lập trình ứng dụng. Sinh viên tham gia cuộc thi ACM, Olympic Tin học, và học các công nghệ mới như IoT, giao thông thông minh.",
+    "priority": 1
+  },
+  {
+    "keywords": ["xây dựng giao thông", "cầu đường", "hạ tầng"],
+    "response": "Kỹ thuật xây dựng công trình giao thông bao gồm: cầu đường, cảng biển/sông, sân bay, đường sắt, hầm, luồng lạch. Sinh viên tham gia cuộc thi Thiết kế cầu.",
+    "priority": 1
+  },
+  {
+    "keywords": ["kinh tế vận tải", "logistics", "chuỗi cung ứng"],
+    "response": "Kinh tế vận tải có chuyên ngành vận tải biển, đường bộ, đường sắt. Logistics tập trung quản lý chuỗi cung ứng, kho bãi. Có chương trình tham quan cảng, nhà máy.",
+    "priority": 1
+  },
+  {
+    "keywords": ["điện điện tử", "tự động hóa", "hệ thống điện"],
+    "response": "Kỹ thuật Điện-Điện tử chuyên về hệ thống điện giao thông. Điều khiển Tự động hóa ứng dụng trong giao thông thông minh và hệ thống tự động.",
+    "priority": 1
+  },
+  {
+    "keywords": ["cơ khí", "ô tô", "chế tạo máy"],
+    "response": "Kỹ thuật Cơ khí có chuyên ngành cơ khí giao thông, chế tạo máy. Kỹ thuật Ô tô tập trung thiết kế, bảo trì phương tiện giao thông.",
+    "priority": 1
+  },
+  {
+    "keywords": ["môi trường", "xanh", "bền vững"],
+    "response": "Kỹ thuật Môi trường chuyên xử lý môi trường trong giao thông, phát triển giao thông xanh và bền vững.",
+    "priority": 1
+  },
+  {
+    "keywords": ["quản trị kinh doanh", "marketing", "doanh nghiệp"],
+    "response": "Quản trị Kinh doanh có chuyên ngành quản trị doanh nghiệp, marketing. Hỗ trợ khởi nghiệp qua CLB Khởi nghiệp và các workshop.",
+    "priority": 1
+  },
+  {
+    "keywords": ["ngoại ngữ", "tiếng anh", "tiếng hàn", "tiếng trung"],
+    "response": "UTH cung cấp lớp tiếng Anh tăng cường, tiếng Hàn, tiếng Trung. CLB tiếng Anh tổ chức giao lưu và luyện thi TOEIC.",
+    "priority": 1
+  },
+  {
+    "keywords": ["học lại", "chuyển ngành", "song ngành"],
+    "response": "UTH cho phép học lại môn với lịch linh hoạt, chuyển ngành trong năm đầu, và đăng ký song ngành (VD: CNTT + Logistics) theo quy định.",
+    "priority": 1
+  },
+  {
+    "keywords": ["y tế", "sức khỏe", "tư vấn tâm lý"],
+    "response": "UTH có trạm y tế tại Cơ sở 1, Trung tâm Tư vấn Tâm lý Sinh viên (miễn phí), và chính sách hỗ trợ sinh viên khuyết tật.",
+    "priority": 1
+  },
+  {
+    "keywords": ["nghiên cứu khoa học", "dự án", "sáng tạo"],
+    "response": "Trung tâm Nghiên cứu và Ứng dụng Kỹ thuật Giao thông hỗ trợ sinh viên tham gia dự án thực tiễn. Quỹ nghiên cứu khoa học từ năm 2.",
+    "priority": 1
+  },
+  {
+    "keywords": ["kỹ năng mềm", "phỏng vấn", "cv", "nghề nghiệp"],
+    "response": "UTH tổ chức workshop kỹ năng giao tiếp, làm việc nhóm, viết CV, phỏng vấn, và định hướng nghề nghiệp từ năm nhất.",
+    "priority": 1
+  },
+  {
+    "keywords": ["thể thao", "giải đấu", "sân chơi"],
+    "response": "UTH tổ chức giải bóng đá, bóng chuyền, cầu lông hàng năm. Có phòng gym hiện đại tại cả 2 cơ sở.",
+    "priority": 1
+  },
+  {
+    "keywords": ["văn hóa", "lễ hội", "sự kiện"],
+    "response": "UTH tổ chức Ngày hội Văn hóa, Lễ hội Âm nhạc, Tết truyền thống, và các buổi giao lưu cựu sinh viên chia sẻ kinh nghiệm.",
+    "priority": 1
+  },
+  {
+    "keywords": ["học liệu", "tài liệu", "lms", "online"],
+    "response": "UTH sử dụng hệ thống LMS quản lý học tập trực tuyến, thư viện số, email sinh viên (@student.utc2.edu.vn) để truy cập tài liệu chuyên ngành.",
+    "priority": 1
+  },
+  {
+    "keywords": ["vay vốn", "tín dụng", "hỗ trợ tài chính"],
+    "response": "Sinh viên UTH có thể đăng ký vay vốn học phí qua chương trình tín dụng của các ngân hàng liên kết với trường.",
+    "priority": 1
+  },
+  {
+    "keywords": ["xe buýt", "đưa đón", "di chuyển"],
+    "response": "UTH có xe buýt đưa đón miễn phí giữa Cơ sở 1 (Bình Thạnh) và Cơ sở 2 (Q.9) để hỗ trợ sinh viên di chuyển.",
+    "priority": 1
+  },
+  {
+    "keywords": ["khóa học hè", "ngắn hạn", "chứng chỉ"],
+    "response": "UTH tổ chức khóa học hè về kỹ năng chuyên môn, ngoại ngữ và các chứng chỉ nghề ngắn hạn: an toàn giao thông, logistics, phần mềm kỹ thuật.",
+    "priority": 1
+  },
+  {
+    "keywords": ["cuộc thi", "olympic", "quốc tế"],
+    "response": "Sinh viên UTH tham gia Olympic Cơ học, Thiết kế cầu, Lập trình ACM, Thiết kế giao thông châu Á và các cuộc thi lập trình quốc tế.",
+    "priority": 1
+  },
+  {
+    "keywords": ["nhà trọ", "chỗ ở", "thuê nhà"],
+    "response": "Trung tâm Hỗ trợ Sinh viên cung cấp danh sách nhà trọ uy tín, giá phù hợp gần cả 2 cơ sở của trường.",
+    "priority": 1
+  },
+  {
+    "keywords": ["ăn uống", "căng tin", "thực phẩm"],
+    "response": "UTH có căng tin thực đơn đa dạng, dinh dưỡng và giá cả hợp lý phù hợp túi tiền sinh viên.",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "số lượng giảng viên",
+      "đội ngũ",
+      "nhân sự",
+      "trình độ giảng viên",
+      "giáo sư",
+      "tiến sĩ",
+      "thạc sĩ"
+    ],
+    "response": "Trường Đại học Giao thông Vận tải (UTH) có tổng cộng 1120 cán bộ và giảng viên. Đội ngũ giảng viên có 827 người, bao gồm 91 Giáo sư và Phó Giáo sư, 202 Tiến sĩ và Tiến sĩ Khoa học, và 489 Thạc sĩ.",
+    "priority": 1
+  },
+
+  {
+    "keywords": [
+      "hợp tác doanh nghiệp",
+      "liên kết",
+      "đối tác",
+      "VINFAST",
+      "Đèo Cả"
+    ],
+    "response": "UTH có nhiều thỏa thuận hợp tác chiến lược với các doanh nghiệp lớn như **VINFAST**, **Tập đoàn Đèo Cả**, và **Tập đoàn C.T Group**. Các thỏa thuận này tập trung vào đào tạo nhân lực, nghiên cứu khoa học, và mở ra nhiều cơ hội thực tập, việc làm cho sinh viên, đặc biệt trong các lĩnh vực như công nghiệp ô tô, đường sắt và logistics.",
+    "priority": 1
+  },
+  {
+    "keywords": ["hồ sơ xét tuyển", "thủ tục đăng ký", "giấy tờ nhập học"],
+    "response": "Hồ sơ xét tuyển vào UTH thường bao gồm: phiếu đăng ký, bản sao CMND/CCCD, bằng tốt nghiệp THPT, học bạ, giấy khám sức khỏe và các ảnh thẻ theo quy định.",
+    "priority": 1
+  },
+
+  {
+    "keywords": [
+      "đời sống sinh viên",
+      "văn hóa",
+      "truyền thống",
+      "không khí học tập"
+    ],
+    "response": "Đời sống sinh viên tại UTH rất sôi động với nhiều hoạt động ngoại khóa đa dạng. Trường thường tổ chức các sự kiện như 'Ngày hội Văn hóa Giao thông', 'Giải bóng đá sinh viên UTH' và các chương trình tình nguyện, khuyến khích sinh viên phát triển toàn diện.",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "trung tâm nghiên cứu",
+      "công nghệ giao thông",
+      "đồ án",
+      "dự án"
+    ],
+    "response": "Trung tâm Nghiên cứu và Ứng dụng Kỹ thuật Giao thông của UTH là nơi sinh viên có thể tham gia các dự án thực tế về công nghệ giao thông thông minh, vật liệu xây dựng mới và các giải pháp bền vững cho ngành giao thông vận tải.",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "tỷ lệ việc làm",
+      "cơ hội nghề nghiệp",
+      "cựu sinh viên",
+      "thành công"
+    ],
+    "response": "Hơn 90% sinh viên UTH có việc làm trong vòng 1 năm sau khi tốt nghiệp. Nhiều cựu sinh viên giữ các vị trí chủ chốt tại các tổng công ty xây dựng, cảng hàng không và các tập đoàn logistics lớn.",
+    "priority": 1
+  },
+  {
+    "keywords": ["năm học", "học kỳ", "lịch trình học tập"],
+    "response": "Năm học tại UTH bao gồm 2 học kỳ chính (Học kỳ 1: tháng 8 - tháng 12; Học kỳ 2: tháng 1 - tháng 5) và một học kỳ hè tùy chọn. Sinh viên có thể chủ động đăng ký học phần để rút ngắn thời gian học.",
+    "priority": 1
+  },
+  {
+    "keywords": ["học online", "LMS", "cổng thông tin", "tài liệu học tập"],
+    "response": "UTH sử dụng hệ thống **Learning Management System (LMS)** để quản lý học liệu và giao bài tập trực tuyến. Sinh viên có thể truy cập Cổng thông tin sinh viên để xem thời khóa biểu, kết quả học tập và các thông báo quan trọng từ nhà trường.",
+    "priority": 1
+  },
+
+  {
+    "keywords": [
+      "cựu sinh viên nổi bật",
+      "người nổi tiếng",
+      "gương mặt tiêu biểu"
+    ],
+    "response": "UTH tự hào có nhiều cựu sinh viên thành đạt, giữ các chức vụ quan trọng trong ngành GTVT và các lĩnh vực khác, như ông Trần Văn Thi, Giám đốc Ban Quản lý dự án Mỹ Thuận.",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "chất lượng cao",
+      "chương trình tiên tiến",
+      "đào tạo đặc biệt"
+    ],
+    "response": "UTH có các lớp chất lượng cao cho một số ngành 'hot' như Logistics, Kỹ thuật ô tô. Chương trình học được tăng cường tiếng Anh chuyên ngành, kỹ năng mềm và có cơ hội thực tập sớm tại các doanh nghiệp lớn.",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "chuẩn đầu ra ngoại ngữ",
+      "yêu cầu tiếng anh",
+      "TOEIC",
+      "IELTS"
+    ],
+    "response": "Sinh viên UTH cần đạt chuẩn đầu ra tiếng Anh tương đương TOEIC 450-550 (tùy ngành) để đủ điều kiện tốt nghiệp. Trường có các khóa học và trung tâm luyện thi để hỗ trợ sinh viên.",
+    "priority": 1
+  },
+  {
+    "keywords": ["văn bằng 2", "học thêm bằng", "bằng kép"],
+    "response": "UTH có chương trình đào tạo văn bằng 2 cho các cá nhân đã có ít nhất một bằng đại học, mở ra cơ hội nghề nghiệp mới trong lĩnh vực Giao thông vận tải và Logistics.",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "định hướng phát triển",
+      "tầm nhìn",
+      "sứ mệnh",
+      "mục tiêu chiến lược"
+    ],
+    "response": "Sứ mệnh của UTH là đào tạo nguồn nhân lực chất lượng cao, nghiên cứu khoa học và chuyển giao công nghệ phục vụ sự phát triển bền vững của ngành GTVT Việt Nam và hội nhập quốc tế.",
+    "priority": 1
+  },
+  {
+    "keywords": ["kiểm định", "chất lượng giáo dục", "xếp hạng"],
+    "response": "Nhiều chương trình đào tạo của UTH đã được kiểm định và công nhận chất lượng bởi các tổ chức uy tín trong nước và khu vực, khẳng định cam kết về chất lượng đào tạo.",
+    "priority": 1
+  },
+  {
+    "keywords": ["đoàn thanh niên", "hội sinh viên", "hoạt động đoàn thể"],
+    "response": "Đoàn Thanh niên - Hội Sinh viên UTH rất năng động, thường xuyên tổ chức các hoạt động ý nghĩa như 'Tiếp sức mùa thi', hiến máu nhân đạo, các hội thảo kỹ năng và diễn đàn khởi nghiệp.",
+    "priority": 1
+  },
+  {
+    "keywords": ["đồng phục", "quy định trang phục"],
+    "response": "Sinh viên UTH mặc đồng phục áo sơ mi trắng có logo trường và quần sẫm màu vào các ngày trong tuần. Đồng phục thể dục được mặc trong các giờ học giáo dục thể chất.",
+    "priority": 1
+  },
+  {
+    "keywords": ["tuyển thẳng", "ưu tiên xét tuyển", "học sinh giỏi quốc gia"],
+    "response": "UTH có chính sách ưu tiên xét tuyển thẳng dành cho các thí sinh đạt giải trong các kỳ thi học sinh giỏi quốc gia, quốc tế (các môn Toán, Lý, Hóa, Tin học) và các cuộc thi Khoa học Kỹ thuật cấp quốc gia.",
+    "priority": 1
+  },
+  {
+    "keywords": ["giáo dục quốc phòng", "học quân sự", "an ninh quốc phòng"],
+    "response": "Chương trình Giáo dục Quốc phòng - An ninh của UTH thường được tổ chức tập trung tại các trung tâm giáo dục quốc phòng liên kết. Sinh viên sẽ có một học kỳ sống và rèn luyện trong môi trường quân đội.",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "đổi mới sáng tạo",
+      "vườn ươm doanh nghiệp",
+      "chuyển giao công nghệ"
+    ],
+    "response": "UTH thúc đẩy mạnh mẽ tinh thần đổi mới sáng tạo và khởi nghiệp thông qua các vườn ươm công nghệ, hỗ trợ các dự án sinh viên về giao thông thông minh, logistics và vật liệu mới có tiềm năng thương mại hóa.",
+    "priority": 1
+  },
+  {
+    "keywords": ["kênh truyền thông", "báo sinh viên", "bản tin UTH"],
+    "response": "Trường có các kênh truyền thông nội bộ và sinh viên như Bản tin UTH, trang Fanpage của Đoàn Thanh niên - Hội Sinh viên, là nơi cập nhật nhanh chóng các thông báo, sự kiện và phản ánh đời sống học đường.",
+    "priority": 1
+  },
+  {
+    "keywords": ["lễ tốt nghiệp", "trao bằng", "lễ phục tốt nghiệp"],
+    "response": "Lễ trao bằng tốt nghiệp là một sự kiện trọng đại và được tổ chức trang trọng tại UTH, là dịp để vinh danh nỗ lực của các tân cử nhân, kỹ sư trước sự chứng kiến của gia đình và thầy cô.",
+    "priority": 1
+  },
+  {
+    "keywords": ["tư vấn học đường", "cố vấn học tập", "hỗ trợ sinh viên"],
+    "response": "Mỗi lớp sinh viên tại UTH đều có một giảng viên làm cố vấn học tập, có nhiệm vụ theo sát, hỗ trợ và định hướng cho sinh viên về chương trình học, phương pháp học tập và các vấn đề trong cuộc sống.",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "phương thức thanh toán học phí",
+      "đóng tiền học",
+      "nộp học phí online"
+    ],
+    "response": "Sinh viên có thể nộp học phí qua nhiều hình thức linh hoạt như chuyển khoản ngân hàng, qua các ứng dụng ví điện tử liên kết hoặc trực tiếp tại phòng Kế hoạch - Tài chính của trường.",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "ngày hội tân sinh viên",
+      "chào tân sinh viên",
+      "tuần sinh hoạt công dân"
+    ],
+    "response": "Đầu mỗi năm học, UTH tổ chức 'Ngày hội chào tân sinh viên' và 'Tuần sinh hoạt công dân' với nhiều hoạt động sôi nổi giúp các bạn khóa mới nhanh chóng hòa nhập, tìm hiểu về trường và gặp gỡ các câu lạc bộ.",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "mạng lưới cựu sinh viên",
+      "ban liên lạc cựu sinh viên",
+      "kết nối cựu sinh viên"
+    ],
+    "response": "UTH có Ban Liên lạc Cựu sinh viên hoạt động rất tích cực, là cầu nối vững chắc giữa các thế hệ sinh viên. Mạng lưới này thường xuyên tổ chức các buổi họp mặt, chia sẻ kinh nghiệm và tạo ra nhiều cơ hội việc làm, hợp tác.",
+    "priority": 1
+  },
+  {
+    "keywords": ["an ninh khuôn viên", "bảo vệ", "camera an ninh", "an toàn"],
+    "response": "An ninh tại các cơ sở của UTH được đảm bảo 24/7 bởi đội ngũ bảo vệ chuyên nghiệp, hệ thống camera giám sát được lắp đặt tại các khu vực trọng yếu, và quy định về thẻ sinh viên khi ra vào, tạo môi trường học tập an toàn.",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "tư vấn dự án quốc gia",
+      "cao tốc Bắc Nam",
+      "sân bay Long Thành",
+      "metro"
+    ],
+    "response": "Đội ngũ chuyên gia và giảng viên của UTH thường xuyên tham gia vào các hội đồng tư vấn, phản biện và nghiên cứu cho các dự án hạ tầng giao thông trọng điểm quốc gia như cao tốc Bắc - Nam, sân bay Long Thành, và tuyến Metro TP.HCM.",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "hỗ trợ IT",
+      "phần mềm bản quyền",
+      "email sinh viên",
+      "Microsoft Office 365"
+    ],
+    "response": "Sinh viên UTH được cấp tài khoản email chính thức (@student.utc2.edu.vn) và được sử dụng miễn phí bộ phần mềm Microsoft Office 365. Trường cũng hỗ trợ cài đặt các phần mềm kỹ thuật chuyên ngành có bản quyền.",
+    "priority": 1
+  },
+  {
+    "keywords": ["nữ sinh kỹ thuật", "hỗ trợ nữ sinh", "STEM"],
+    "response": "UTH luôn khuyến khích và tạo điều kiện cho các nữ sinh theo học khối ngành kỹ thuật thông qua các buổi workshop, chương trình giao lưu với các nữ kỹ sư thành đạt và các chính sách hỗ trợ nhằm thúc đẩy bình đẳng giới trong khoa học công nghệ.",
+    "priority": 1
+  },
+  {
+    "keywords": ["gửi xe", "nhà xe sinh viên", "bãi giữ xe"],
+    "response": "Cả hai cơ sở của UTH đều có khu vực nhà xe rộng rãi, có mái che dành cho sinh viên và cán bộ giảng viên. Việc quản lý xe ra vào bằng thẻ từ giúp đảm bảo an toàn, trật tự.",
+    "priority": 1
+  },
+  {
+    "keywords": ["tuần lễ khoa", "ngày truyền thống khoa"],
+    "response": "Hàng năm, các khoa chuyên ngành thường tổ chức 'Tuần lễ Khoa' hoặc 'Ngày hội truyền thống Khoa' với chuỗi hoạt động học thuật, thể thao, văn nghệ, và các cuộc thi chuyên môn, tạo nên bản sắc riêng cho từng ngành học.",
+    "priority": 1
+  },
+  {
+    "keywords": ["phúc lợi sinh viên", "bảo hiểm y tế", "chế độ chính sách"],
+    "response": "Ngoài các chính sách của nhà nước, UTH luôn quan tâm đến phúc lợi sinh viên bằng việc đảm bảo 100% sinh viên có bảo hiểm y tế, triển khai các gói bảo hiểm tai nạn tự nguyện và quy trình xử lý chế độ chính sách nhanh chóng, thuận tiện.",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "thư viện điện tử",
+      "cơ sở dữ liệu online",
+      "tài liệu số",
+      "IEEE Xplore",
+      "SpringerLink"
+    ],
+    "response": "Thư viện UTH cung cấp quyền truy cập vào các cơ sở dữ liệu khoa học trực tuyến hàng đầu thế giới như IEEE Xplore, SpringerLink, ScienceDirect, giúp sinh viên và giảng viên tiếp cận nguồn tài liệu học thuật và nghiên cứu phong phú, cập nhật.",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "quy tắc liêm chính học thuật",
+      "chống gian lận",
+      "đạo văn",
+      "quy chế thi cử"
+    ],
+    "response": "UTH đề cao tính liêm chính trong học thuật. Nhà trường có những quy định rất chặt chẽ về việc chống gian lận trong thi cử và xử lý nghiêm các hành vi đạo văn trong luận văn, đồ án để đảm bảo chất lượng đào tạo và sự công bằng.",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "sinh viên quốc tế",
+      "du học sinh",
+      "hỗ trợ sinh viên nước ngoài"
+    ],
+    "response": "UTH có Phòng Quan hệ Đối ngoại chuyên trách hỗ trợ các sinh viên quốc tế (Lào, Campuchia, Hàn Quốc...) trong các vấn đề về thủ tục nhập học, visa, ký túc xá và tổ chức các hoạt động giao lưu văn hóa để các bạn nhanh chóng hòa nhập.",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "phòng truyền thống",
+      "nhà truyền thống",
+      "lịch sử trường",
+      "kỷ vật"
+    ],
+    "response": "Nhà trường có Phòng Truyền thống, là nơi lưu giữ những hình ảnh, kỷ vật, tài liệu quý giá về các giai đoạn hình thành và phát triển của UTH, giúp các thế hệ sinh viên hiểu rõ hơn về lịch sử và tự hào về ngôi trường mình theo học.",
+    "priority": 1
+  },
+  {
+    "keywords": ["tạp chí khoa học công nghệ", "công bố bài báo", "ISSN"],
+    "response": "UTH xuất bản Tạp chí Khoa học Công nghệ Giao thông Vận tải, một tạp chí uy tín có mã số chuẩn quốc tế (ISSN). Đây là diễn đàn để các nhà khoa học, giảng viên và sinh viên sau đại học công bố các công trình nghiên cứu mới nhất của mình.",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "khảo sát việc làm",
+      "phản hồi từ doanh nghiệp",
+      "cải tiến chương trình"
+    ],
+    "response": "Hàng năm, UTH đều tiến hành khảo sát tình hình việc làm của sinh viên sau tốt nghiệp và thu thập phản hồi từ các doanh nghiệp tuyển dụng. Kết quả được sử dụng để phân tích, đánh giá và cải tiến chương trình đào tạo cho phù hợp với thực tiễn.",
+    "priority": 1
+  },
+  {
+    "keywords": ["đánh giá rèn luyện", "điểm rèn luyện", "tiêu chí đánh giá"],
+    "response": "Bên cạnh điểm học tập, sinh viên UTH được đánh giá kết quả rèn luyện mỗi học kỳ dựa trên các tiêu chí về ý thức học tập, chấp hành nội quy, tham gia hoạt động ngoại khóa. Điểm rèn luyện là một tiêu chí quan trọng để xét học bổng và tốt nghiệp.",
+    "priority": 1
+  },
+  {
+    "keywords": ["ứng dụng di động", "app sinh viên", "UTH App"],
+    "response": "Nhà trường đang phát triển ứng dụng di động (app) dành cho sinh viên, cho phép xem lịch học, lịch thi, kết quả học tập và nhận thông báo từ nhà trường một cách nhanh chóng, tiện lợi ngay trên điện thoại thông minh.",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "thư viện điện tử",
+      "cơ sở dữ liệu online",
+      "tài liệu số",
+      "IEEE Xplore",
+      "SpringerLink"
+    ],
+    "response": "Thư viện UTH cung cấp quyền truy cập vào các cơ sở dữ liệu khoa học trực tuyến hàng đầu thế giới như IEEE Xplore, SpringerLink, ScienceDirect, giúp sinh viên và giảng viên tiếp cận nguồn tài liệu học thuật và nghiên cứu phong phú, cập nhật.",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "quy tắc liêm chính học thuật",
+      "chống gian lận",
+      "đạo văn",
+      "quy chế thi cử"
+    ],
+    "response": "UTH đề cao tính liêm chính trong học thuật. Nhà trường có những quy định rất chặt chẽ về việc chống gian lận trong thi cử và xử lý nghiêm các hành vi đạo văn trong luận văn, đồ án để đảm bảo chất lượng đào tạo và sự công bằng.",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "sinh viên quốc tế",
+      "du học sinh",
+      "hỗ trợ sinh viên nước ngoài"
+    ],
+    "response": "UTH có Phòng Quan hệ Đối ngoại chuyên trách hỗ trợ các sinh viên quốc tế (Lào, Campuchia, Hàn Quốc...) trong các vấn đề về thủ tục nhập học, visa, ký túc xá và tổ chức các hoạt động giao lưu văn hóa để các bạn nhanh chóng hòa nhập.",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "phòng truyền thống",
+      "nhà truyền thống",
+      "lịch sử trường",
+      "kỷ vật"
+    ],
+    "response": "Nhà trường có Phòng Truyền thống, là nơi lưu giữ những hình ảnh, kỷ vật, tài liệu quý giá về các giai đoạn hình thành và phát triển của UTH, giúp các thế hệ sinh viên hiểu rõ hơn về lịch sử và tự hào về ngôi trường mình theo học.",
+    "priority": 1
+  },
+  {
+    "keywords": ["tạp chí khoa học công nghệ", "công bố bài báo", "ISSN"],
+    "response": "UTH xuất bản Tạp chí Khoa học Công nghệ Giao thông Vận tải, một tạp chí uy tín có mã số chuẩn quốc tế (ISSN). Đây là diễn đàn để các nhà khoa học, giảng viên và sinh viên sau đại học công bố các công trình nghiên cứu mới nhất của mình.",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "khảo sát việc làm",
+      "phản hồi từ doanh nghiệp",
+      "cải tiến chương trình"
+    ],
+    "response": "Hàng năm, UTH đều tiến hành khảo sát tình hình việc làm của sinh viên sau tốt nghiệp và thu thập phản hồi từ các doanh nghiệp tuyển dụng. Kết quả được sử dụng để phân tích, đánh giá và cải tiến chương trình đào tạo cho phù hợp với thực tiễn.",
+    "priority": 1
+  },
+  {
+    "keywords": ["đánh giá rèn luyện", "điểm rèn luyện", "tiêu chí đánh giá"],
+    "response": "Bên cạnh điểm học tập, sinh viên UTH được đánh giá kết quả rèn luyện mỗi học kỳ dựa trên các tiêu chí về ý thức học tập, chấp hành nội quy, tham gia hoạt động ngoại khóa. Điểm rèn luyện là một tiêu chí quan trọng để xét học bổng và tốt nghiệp.",
+    "priority": 1
+  },
+  {
+    "keywords": ["ứng dụng di động", "app sinh viên", "UTH App"],
+    "response": "Nhà trường đang phát triển ứng dụng di động (app) dành cho sinh viên, cho phép xem lịch học, lịch thi, kết quả học tập và nhận thông báo từ nhà trường một cách nhanh chóng, tiện lợi ngay trên điện thoại thông minh.",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "mạng lưới cựu sinh viên",
+      "ban liên lạc cựu sinh viên",
+      "kết nối cựu sinh viên"
+    ],
+    "response": "Tại UTH, mạng lưới cựu sinh viên không chỉ là nơi kết nối mà còn là một nguồn lực quý giá. Ban Liên lạc Cựu sinh viên hoạt động mạnh mẽ, thường xuyên tổ chức các chương trình họp mặt truyền thống, hội thảo nghề nghiệp, và tư vấn định hướng cho sinh viên hiện tại. Nhiều cựu sinh viên đã thành đạt, đang giữ các vị trí quan trọng trong các cơ quan nhà nước, doanh nghiệp lớn trong và ngoài ngành giao thông vận tải. Thông qua mạng lưới này, sinh viên có thêm cơ hội việc làm, được kết nối với thế giới thực tế, và nuôi dưỡng tinh thần 'truyền lửa' giữa các thế hệ.",
+    "priority": 1
+  },
+  {
+    "keywords": ["an ninh khuôn viên", "bảo vệ", "camera an ninh", "an toàn"],
+    "response": "UTH luôn xác định môi trường học tập an toàn là nền tảng cho sự phát triển học thuật và cá nhân. Khuôn viên các cơ sở đều được quản lý nghiêm ngặt với đội ngũ bảo vệ trực 24/7, hệ thống camera giám sát toàn diện, và yêu cầu sinh viên phải sử dụng thẻ khi ra vào trường. Ngoài ra, nhà trường còn tổ chức các buổi truyền thông về phòng chống trộm cắp, bạo lực học đường, và kỹ năng ứng phó khẩn cấp, nhằm xây dựng một cộng đồng học đường văn minh, an toàn và hiện đại.",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "tư vấn dự án quốc gia",
+      "cao tốc Bắc Nam",
+      "sân bay Long Thành",
+      "metro"
+    ],
+    "response": "Đội ngũ giảng viên và chuyên gia của UTH không chỉ là người dạy mà còn là người kiến tạo nên các công trình giao thông trọng điểm quốc gia. Trường tự hào có nhiều thầy cô đang tham gia tư vấn, phản biện khoa học và thiết kế kỹ thuật cho các dự án như cao tốc Bắc – Nam, sân bay Long Thành, hay tuyến Metro TP.HCM. Việc giảng dạy đi đôi với thực tiễn giúp sinh viên được tiếp cận các nghiên cứu đỉnh cao, bài giảng luôn cập nhật công nghệ mới, và mở ra cơ hội tham gia dự án từ khi còn đi học.",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "hỗ trợ IT",
+      "phần mềm bản quyền",
+      "email sinh viên",
+      "Microsoft Office 365"
+    ],
+    "response": "Sinh viên UTH được cấp miễn phí tài khoản email sinh viên chính thức với tên miền @student.utc2.edu.vn, đồng thời được quyền truy cập trọn bộ phần mềm Microsoft Office 365 bản quyền bao gồm Word, Excel, PowerPoint, Outlook,... Nhà trường cũng hỗ trợ cài đặt phần mềm kỹ thuật chuyên ngành như AutoCAD, Matlab, Proteus, hoặc phần mềm mô phỏng mạng, cơ điện tử, logistics,… tạo điều kiện tối đa cho sinh viên học tập và thực hành đúng chuẩn doanh nghiệp.",
+    "priority": 1
+  },
+  {
+    "keywords": ["nữ sinh kỹ thuật", "hỗ trợ nữ sinh", "STEM"],
+    "response": "Dù khối ngành kỹ thuật vốn được xem là 'lãnh địa nam giới', UTH lại là nơi tôn vinh và khuyến khích nữ sinh mạnh dạn theo đuổi đam mê STEM. Các chương trình như 'Nữ sinh ngành kỹ thuật – Bản lĩnh và Tài năng', các buổi talkshow truyền cảm hứng cùng các kỹ sư nữ thành đạt, hay các học bổng riêng cho nữ sinh chuyên ngành công nghệ đã được triển khai đều đặn. Trường tin rằng, phát triển khoa học công nghệ phải gắn liền với bình đẳng giới và sự tham gia đầy đủ của tất cả tài năng.",
+    "priority": 1
+  },
+  {
+    "keywords": ["gửi xe", "nhà xe sinh viên", "bãi giữ xe"],
+    "response": "Cơ sở vật chất tại UTH luôn được đầu tư hiện đại và hợp lý. Cả hai cơ sở chính đều có khu vực nhà xe rộng rãi, thoáng mát, có mái che và phân khu riêng cho xe đạp, xe máy và xe ô tô. Hệ thống kiểm soát ra vào bằng thẻ từ giúp đảm bảo an ninh. Sinh viên được quyền gửi xe trong khung giờ học mà không tốn phí hoặc được hỗ trợ chi phí gửi xe tháng rất thấp, thể hiện sự quan tâm thực tế và gần gũi của nhà trường đối với đời sống hằng ngày của sinh viên.",
+    "priority": 1
+  },
+  {
+    "keywords": ["tuần lễ khoa", "ngày truyền thống khoa"],
+    "response": "Tuần lễ Khoa và Ngày truyền thống là những sự kiện lớn trong năm của từng khoa chuyên ngành tại UTH. Đây không chỉ là dịp để tôn vinh thành tựu học thuật, mà còn là sân chơi để sinh viên thể hiện tài năng qua các cuộc thi như thiết kế mô hình, sáng tạo công nghệ, thi đấu thể thao, biểu diễn văn nghệ. Sự kiện thường có sự góp mặt của cựu sinh viên, doanh nghiệp và giảng viên đầu ngành, giúp gắn kết nhà trường – doanh nghiệp – người học theo mô hình '3 bên cùng phát triển'.",
+    "priority": 1
+  },
+  {
+    "keywords": ["phúc lợi sinh viên", "bảo hiểm y tế", "chế độ chính sách"],
+    "response": "UTH đặc biệt chú trọng đến hệ thống phúc lợi sinh viên. Trường đảm bảo 100% sinh viên có bảo hiểm y tế đúng quy định, đồng thời triển khai các gói bảo hiểm tai nạn tự nguyện với chi phí thấp nhưng quyền lợi cao. Những sinh viên có hoàn cảnh khó khăn còn được tư vấn, hướng dẫn nhận các chính sách hỗ trợ từ nhà nước như miễn giảm học phí, học bổng khuyến khích học tập, hoặc hỗ trợ khẩn cấp. Mọi thủ tục đều được số hóa để đảm bảo minh bạch, nhanh chóng, công bằng.",
+    "priority": 1
+  }
+]
