@@ -1,1 +1,14 @@
+# File bí mật (Tuyệt đối không xóa dòng này)
+.env
+
+# Môi trường ảo & Cache của Python
+venv/
+__pycache__/
+*.pyc
+
+# Thư viện nặng của Client
 Client/node_modules/
+
+# Các file rác hệ thống
+.DS_Store
+Thumbs.db
