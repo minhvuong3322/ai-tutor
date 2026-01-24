@@ -19,16 +19,22 @@ def get_ip():
 @app.route("/chat", methods=["POST"])
 def chat():
     data = request.get_json()
+    
+    if not data:
+        return jsonify({"error": "No data provided"}), 400
 
-    if not data or "message" not in data:
+    user_input = data.get("message")
+    session_id = data.get("session_id", "anonymous") # Nhận session_id từ Client, mặc định là anonymous
+
+    if not user_input:
         return jsonify({"error": "Thiếu trường 'message'."}), 400
 
-    user_input = data["message"]
-    bot_response = get_response(user_input)
+    bot_response = get_response(user_input, session_id)
 
     return jsonify({
         "user_input": user_input,
-        "bot_response": bot_response
+        "bot_response": bot_response,
+        "session_id": session_id
     })
 
 if __name__ == "__main__":

@@ -1,72 +1,121 @@
 import json
 import os
-from dotenv import load_dotenv
-from google import genai  # <-- Import thư viện mới
+import random
 
-# --- CẤU HÌNH ---
-load_dotenv()
-API_KEY = os.getenv("GOOGLE_API_KEY")
+# --- NẠP QUY TẮC TỪ FILE ---
+base_path = os.path.dirname(os.path.abspath(__file__))
+file_path = os.path.join(base_path, "rules.json")
 
-if not API_KEY:
-    raise ValueError("Chưa cấu hình GOOGLE_API_KEY trong file .env")
+rules = []
+try:
+    with open(file_path, "r", encoding="utf-8") as f:
+        rules = json.load(f)
+    print(f"✅ Đã nạp {len(rules)} quy tắc từ rules.json")
+except Exception as e:
+    print(f"❌ Lỗi nạp rules.json: {e}")
 
-# Khởi tạo Client mới
-client = genai.Client(api_key=API_KEY)
+# --- HÀM CHUẨN HÓA VĂN BẢN (XÓA DẤU) ---
+def remove_accent(text):
+    """Chuyển văn bản có dấu thành không dấu để so sánh linh hoạt hơn"""
+    accents = {
+        'á': 'a', 'à': 'a', 'ả': 'a', 'ã': 'a', 'ạ': 'a',
+        'ă': 'a', 'ắ': 'a', 'ằ': 'a', 'ẳ': 'a', 'ẵ': 'a', 'ặ': 'a',
+        'â': 'a', 'ấ': 'a', 'ầ': 'a', 'ẩ': 'a', 'ẫ': 'a', 'ậ': 'a',
+        'đ': 'd',
+        'é': 'e', 'è': 'e', 'ẻ': 'e', 'ẽ': 'e', 'ẹ': 'e',
+        'ê': 'e', 'ế': 'e', 'ề': 'e', 'ể': 'e', 'ễ': 'e', 'ệ': 'e',
+        'í': 'i', 'ì': 'i', 'ỉ': 'i', 'ĩ': 'i', 'ị': 'i',
+        'ó': 'o', 'ò': 'o', 'ỏ': 'o', 'õ': 'o', 'ọ': 'o',
+        'ô': 'o', 'ố': 'o', 'ồ': 'o', 'ổ': 'o', 'ỗ': 'o', 'ộ': 'o',
+        'ơ': 'o', 'ớ': 'o', 'ờ': 'o', 'ở': 'o', 'ỡ': 'o', 'ợ': 'o',
+        'ú': 'u', 'ù': 'u', 'ủ': 'u', 'ũ': 'u', 'ụ': 'u',
+        'ư': 'u', 'ứ': 'u', 'ừ': 'u', 'ử': 'u', 'ữ': 'u', 'ự': 'u',
+        'ý': 'y', 'ỳ': 'y', 'ỷ': 'y', 'ỹ': 'y', 'ỵ': 'y'
+    }
+    result = ""
+    for char in text.lower():
+        result += accents.get(char, char)
+    return result
 
-# --- CHUẨN BỊ DỮ LIỆU (KIẾN THỨC CHO AI) ---
-def load_knowledge_base():
-    try:
-        base_path = os.path.dirname(os.path.abspath(__file__))
-        file_path = os.path.join(base_path, "rules.json")
+# --- HÀM TÌM KIẾM QUY TẮC PHÙ HỢP ---
+def find_matching_rule(user_input):
+    """
+    Tìm quy tắc phù hợp nhất dựa trên keywords.
+    Hỗ trợ so sánh cả có dấu và không dấu.
+    CHỈ trả về rule khi có ít nhất 1 keyword khớp.
+    """
+    user_input_lower = user_input.lower()
+    user_input_no_accent = remove_accent(user_input)
+    
+    best_match = None
+    best_score = 0
+    best_priority = -1
+    
+    for rule in rules:
+        keywords = rule.get("keywords", [])
+        score = 0
         
-        with open(file_path, "r", encoding="utf-8") as f:
-            data = json.load(f)
-            knowledge_text = "Dưới đây là thông tin về Trường Đại học Giao thông Vận tải TP.HCM (UTH):\n"
-            for item in data:
-                knowledge_text += f"- {item['response']}\n"
-            return knowledge_text
-    except Exception as e:
-        print(f"Lỗi đọc rules.json: {e}")
-        return ""
+        for keyword in keywords:
+            keyword_lower = keyword.lower()
+            keyword_no_accent = remove_accent(keyword)
+            
+            # Kiểm tra cả có dấu và không dấu
+            if keyword_lower in user_input_lower or keyword_no_accent in user_input_no_accent:
+                score += 1
+        
+        # Chỉ xét rule nếu có ít nhất 1 keyword khớp
+        if score > 0:
+            priority = rule.get("priority", 0)
+            
+            # Ưu tiên: score cao hơn > priority cao hơn
+            if score > best_score or (score == best_score and priority > best_priority):
+                best_score = score
+                best_priority = priority
+                best_match = rule
+    
+    return best_match
 
-uth_info = load_knowledge_base()
+# --- HÀM LẤY RESPONSE ---
+def get_response_text(rule):
+    """
+    Lấy response từ rule.
+    Hỗ trợ cả string và array (chọn ngẫu nhiên nếu là array).
+    """
+    response = rule.get("response", "Xin lỗi, mình không hiểu câu hỏi của bạn.")
+    
+    if isinstance(response, list):
+        # Chọn ngẫu nhiên từ danh sách response
+        return random.choice(response)
+    else:
+        return response
 
 # --- HÀM XỬ LÝ CHÍNH ---
-def get_response(user_input):
+def get_response(user_input, session_id="default"):
+    """
+    Nhận input từ người dùng và trả về response phù hợp.
+    """
+    # Kiểm tra input rỗng
+    if not user_input or not user_input.strip():
+        return "Bạn chưa nhập câu hỏi."
+    
     try:
-        prompt = f"""
-        Bạn là Chatbot tư vấn tuyển sinh và hỗ trợ sinh viên của Trường Đại học Giao thông Vận tải TP.HCM (UTH).
+        # Tìm quy tắc phù hợp
+        matched_rule = find_matching_rule(user_input)
         
-        Hãy sử dụng thông tin dưới đây để trả lời câu hỏi:
-        ---
-        {uth_info}
-        ---
-        
-        Yêu cầu:
-        1. Trả lời ngắn gọn, thân thiện, xưng hô là "mình" và "bạn".
-        2. Chỉ trả lời dựa trên thông tin được cung cấp. Nếu không có thông tin, hãy nói "Hiện tại mình chưa có thông tin về vấn đề này, bạn vui lòng liên hệ Phòng Đào tạo nhé."
-        3. Sử dụng emoji phù hợp.
-
-        Câu hỏi của người dùng: {user_input}
-        """
-        
-        # Gọi API theo cú pháp mới của google-genai
-        response = client.models.generate_content(
-            model='gemini-flash-latest',
-            contents=prompt
-        )
-        
-        # Trả về text (nếu có lỗi attribute, dùng response.text)
-        return response.text.strip()
-
+        if matched_rule:
+            return get_response_text(matched_rule)
+        else:
+            return "Hiện tại mình chưa có thông tin cụ thể về vấn đề này. Bạn vui lòng liên hệ Phòng Đào tạo qua số (028) 3512-0756 nhé!"
+    
     except Exception as e:
-        print(f"Lỗi API: {str(e)}") # In lỗi ra terminal để dễ debug
-        return f"Xin lỗi, hệ thống đang bảo trì một chút. (Lỗi: {str(e)})"
+        print(f"Lỗi xử lý: {str(e)}")
+        return "Xin lỗi, có lỗi hệ thống xảy ra."
 
-# --- TEST TRỰC TIẾP ---
 if __name__ == "__main__":
-    while True:
-        user_input = input("Bạn: ")
-        if user_input.lower() in ["thoát", "exit", "quit"]:
-            break
-        print("UTHBot:", get_response(user_input))
+    print("Testing Rule-Based Chatbot...")
+    print("User: Xin chào")
+    print("Bot:", get_response("Xin chào"))
+    print("User: hoc phi")
+    print("Bot:", get_response("hoc phi"))
+    print("User: cntt")
+    print("Bot:", get_response("cntt"))

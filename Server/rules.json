@@ -1,610 +1,1955 @@
 [
   {
-    "keywords": ["thank", "cảm ơn", "oke"],
-    "response": "Không có gì, mình rất vui được giúp đỡ bạn!\nNếu bạn cần thêm thông tin gì, hãy cứ hỏi nhé!",
-    "priority": 1
+    "keywords": [
+      "chào",
+      "chao",
+      "hi",
+      "hello",
+      "xin chào",
+      "xin chao",
+      "hey"
+    ],
+    "response": [
+      "Chào bạn! Mình là UTHBot 🤖. Bạn cần hỗ trợ gì về trường?",
+      "Hi! Rất vui được gặp bạn. Hỏi mình về UTH nhé!",
+      "Hello! Mình là trợ lý ảo của UTH. Cần giúp gì không?"
+    ],
+    "priority": 8
   },
   {
-    "keywords": ["chào", "hi", "hello"],
-    "response": "Chào bạn mình là Chatbot của Trường Đại học Giao thông Vận tải TP.HCM (UTH). Bạn cần thông tin gì về trường?",
-    "priority": 1
+    "keywords": [
+      "uth",
+      "trường",
+      "dai hoc",
+      "đại học",
+      "giao thông vận tải"
+    ],
+    "response": "UTH - Đại học Giao thông Vận tải TP.HCM: Trường công lập thuộc Bộ GTVT, đào tạo 34 chuyên ngành. Học phí 400k/tín chỉ. Bạn muốn hỏi gì cụ thể?",
+    "priority": 7
   },
   {
-    "keywords": ["thành lập", "năm nào", "lịch sử", "ra đời"],
-    "response": "Trường Đại học Giao thông Vận tải TP.HCM (UTH) được thành lập năm 2001 trên cơ sở nâng cấp cơ sở phía Nam của Đại học Giao thông Vận tải.",
-    "priority": 1
+    "keywords": [
+      "cảm ơn",
+      "cam on",
+      "thanks",
+      "thank",
+      "tks"
+    ],
+    "response": [
+      "Không có gì! Rất vui được giúp bạn 😊",
+      "Dạ không có chi! Cần gì cứ hỏi thêm nhé",
+      "You're welcome! ❤️"
+    ],
+    "priority": 8
   },
   {
-    "keywords": ["cơ sở", "địa chỉ", "campus", "vị trí"],
-    "response": "UTH có 2 cơ sở chính: Cơ sở 1 tại 2 Võ Oanh (D3), P.25, Q. Bình Thạnh và Cơ sở 2 tại 450-451 Lê Văn Việt, Q.9, TP.HCM. Ngoài ra còn có các điểm liên kết đào tạo tại các tỉnh.",
-    "priority": 1
+    "keywords": [
+      "tạm biệt",
+      "bye",
+      "goodbye",
+      "bai bai"
+    ],
+    "response": [
+      "Tạm biệt! Hẹn gặp lại 👋",
+      "Bye bye! Chúc bạn ngày tốt lành ☀️"
+    ],
+    "priority": 8
   },
   {
-    "keywords": ["ngành học", "chuyên ngành", "đào tạo", "khoa"],
-    "response": "UTH đào tạo đa dạng các ngành: Kỹ thuật giao thông, Kinh tế vận tải, Công nghệ thông tin, Cơ khí, Điện-Điện tử, Quản trị kinh doanh, Logistics, Kỹ thuật xây dựng công trình giao thông, Kỹ thuật ô tô, Kỹ thuật môi trường, Điều khiển tự động hóa.",
-    "priority": 1
+    "keywords": [
+      "điểm chuẩn cntt",
+      "diem chuan cntt",
+      "cntt năm ngoái"
+    ],
+    "response": "Điểm chuẩn ngành CNTT năm 2024 là khoảng 20-22 điểm nè! 💻 Đây là ngành hot nhất trường. Bạn có thể xét bằng điểm thi THPT hoặc Học bạ (TB > 8.0) để an toàn nhé!",
+    "priority": 10
   },
   {
-    "keywords": ["học phí", "chi phí học", "mức phí"],
-    "response": "Học phí năm 2025 từ 13-20 triệu đồng/năm, tùy ngành học và chương trình đào tạo cụ thể.",
-    "priority": 1
+    "keywords": [
+      "phí ktx",
+      "phi ktx",
+      "giá ktx",
+      "tien ktx"
+    ],
+    "response": "Phí KTX siêu 'hạt dẻ' chỉ 300.000 VNĐ/tháng! 🏠 Chưa tính điên nước. Rẻ, an ninh, vui. Nhớ đăng ký ngay ngày nhập học nhé!",
+    "priority": 10
   },
   {
-    "keywords": ["học bổng", "hỗ trợ học tập", "miễn giảm"],
-    "response": "UTH cung cấp nhiều loại học bổng: khuyến khích học tập (GPA ≥ 3.0/4.0), học bổng doanh nghiệp, hỗ trợ hoàn cảnh khó khăn, và học bổng toàn phần cho sinh viên xuất sắc đặc biệt.",
-    "priority": 1
+    "keywords": [
+      "thuộc bộ nào",
+      "bo chu quan",
+      "truong bo"
+    ],
+    "response": "UTH trực thuộc Bộ Giao thông Vận tải 🏛️. Là trường công lập uy tín, bằng cấp 'xịn', học phí 'mềm'.",
+    "priority": 10
   },
   {
-    "keywords": ["ký túc xá", "ktx", "chỗ ở", "nội trú"],
-    "response": "UTH có ký túc xá tại Cơ sở 1 (Q. Bình Thạnh) chứa ~1.500 sinh viên, đầy đủ tiện nghi. Chi phí 300.000-500.000 VNĐ/tháng tùy loại phòng. Ưu tiên sinh viên xa nhà và hoàn cảnh khó khăn.",
-    "priority": 1
+    "keywords": [
+      "phòng gym",
+      "gym",
+      "tap the hinh"
+    ],
+    "response": "Trường có phòng GYM miễn phí cho sinh viên luôn! 💪 Máy móc hiện đại, để bạn tha hồ 'độ body'. Ngoài ra còn sân bóng, cầu lông nữa.",
+    "priority": 10
   },
   {
-    "keywords": ["tuyển sinh", "xét tuyển", "đăng ký", "nhập học"],
-    "response": "Tuyển sinh từ tháng 4-8 hàng năm. Xét tuyển dựa trên: điểm thi THPT Quốc gia, học bạ THPT, và kỳ thi đánh giá năng lực ĐHQG TP.HCM. Điểm chuẩn 2024: 16-23 điểm tùy ngành.",
-    "priority": 1
+    "keywords": [
+      "rớt môn",
+      "rot mon",
+      "truot mon"
+    ],
+    "response": "Rớt môn thì học lại thôi, đừng lo! 📚 Không bị đuổi học đâu (trừ khi GPA < 1.0 liên tục). Nhưng tốn tiền và thời gian lắm, cố gắng qua môn nha!",
+    "priority": 10
   },
   {
-    "keywords": ["liên thông", "chuyển cấp", "từ cao đẳng"],
-    "response": "UTH có chương trình đào tạo liên thông từ trung cấp, cao đẳng lên đại học cho các ngành kỹ thuật và kinh tế với lịch học linh hoạt.",
-    "priority": 1
+    "keywords": [
+      "quên mật khẩu",
+      "quen mk",
+      "mat khau lms"
+    ],
+    "response": "Quên mật khẩu thì mang thẻ SV ghé Phòng Đào tạo hoặc Trung tâm CNTT để reset nha 🔑. Đừng để quên hoài nhe!",
+    "priority": 10
   },
   {
-    "keywords": ["quốc tế", "2+2", "trao đổi", "du học"],
-    "response": "UTH liên kết quốc tế với Đại học Tongmyong (Hàn Quốc), Đại học Giao thông Vận tải Đài Loan (chương trình 2+2), và hỗ trợ đăng ký học bổng Erasmus+, AUN.",
-    "priority": 1
+    "keywords": [
+      "mất thẻ",
+      "mat the sv"
+    ],
+    "response": "Mất thẻ thì lên Phòng CTSV làm lại liền 💳. Phí khoảng 50k, 3-5 ngày có. Nhớ giữ thẻ kỹ để đi thi và ra vào cổng.",
+    "priority": 10
   },
   {
-    "keywords": ["thời gian học", "thời khóa biểu", "kéo dài"],
-    "response": "Hệ đại học chính quy: 4 năm (một số ngành kỹ thuật 4.5 năm). Có chương trình đào tạo từ xa cho Quản trị kinh doanh và Logistics.",
-    "priority": 1
+    "keywords": [
+      "nhà nghèo",
+      "hoan canh kho khan",
+      "hoc phi"
+    ],
+    "response": "Trường có chế độ miễn giảm học phí cho hộ nghèo và nhiều học bổng hỗ trợ ❤️. Bạn liên hệ Phòng CTSV để nộp giấy tờ xét duyệt nhé!",
+    "priority": 10
   },
   {
-    "keywords": ["câu lạc bộ", "hoạt động ngoại khóa", "sinh viên"],
-    "response": "UTH có đa dạng CLB: Kỹ thuật giao thông, Văn nghệ, Tình nguyện, Công nghệ thông tin, Khởi nghiệp, Tiếng Anh, và các đội tình nguyện Mùa Hè Xanh, Xuân Tình Nguyện.",
-    "priority": 1
+    "keywords": [
+      "học khó không",
+      "hoc kho khong"
+    ],
+    "response": "Học UTH không khó nếu bạn chăm! 🔥 Các môn chuyên ngành rất thực tế. Thầy cô cũng nhiệt tình hỗ trợ. Rớt môn chủ yếu do lười thôi à 😆",
+    "priority": 10
   },
   {
-    "keywords": ["liên hệ", "phòng đào tạo", "tư vấn"],
-    "response": "Liên hệ Phòng Đào tạo: (028) 3512-0756, email: daotao@utc2.edu.vn. Trung tâm Hỗ trợ Sinh viên tại Cơ sở 1, Q. Bình Thạnh cung cấp tư vấn toàn diện.",
-    "priority": 1
+    "keywords": [
+      "buồn quá",
+      "stress",
+      "an ui"
+    ],
+    "response": "Cố lên bạn ơi! 💪 Ai rồi cũng có lúc mệt mỏi mà. Ra sân trường hóng gió, hay ghé canteen làm ly trà sữa là đời lại tươi ngay! ❤️",
+    "priority": 10
   },
   {
-    "keywords": ["việc làm", "thực tập", "career", "tuyển dụng"],
-    "response": "Trung tâm Quan hệ Doanh nghiệp tổ chức Ngày hội Việc làm hàng năm, hỗ trợ tìm thực tập tại các đối tác như Tổng Công ty Đường sắt VN, CIENCO, các công ty logistics.",
-    "priority": 1
+    "keywords": [
+      "bạn là ai",
+      "bot la ai"
+    ],
+    "response": "Mình là UTH Bot 🤖 - Trợ lý ảo siêu cấp đáng yêu của Đại học Giao thông Vận tải TP.HCM. Hỏi gì cũng biết (hoặc sẽ cố gắng biết)!",
+    "priority": 10
   },
   {
-    "keywords": ["thạc sĩ", "tiến sĩ", "sau đại học", "cao học"],
-    "response": "UTH đào tạo thạc sĩ và tiến sĩ các ngành: Kỹ thuật giao thông, Kinh tế vận tải, Kỹ thuật xây dựng công trình giao thông.",
-    "priority": 1
+    "keywords": [
+      "sống ảo",
+      "check in",
+      "truong dep"
+    ],
+    "response": "Trường đẹp miễn chê! 📸 Đặc biệt là CS2 Thủ Đức 8ha xanh mướt. Thư viện, đường đi bộ, sân thượng... góc nào cũng lên hình lung linh!",
+    "priority": 10
   },
   {
-    "keywords": ["cơ sở vật chất", "thư viện", "phòng thí nghiệm"],
-    "response": "UTH có thư viện hiện đại (mở cửa đến 20:00), phòng thí nghiệm chuyên ngành (Kỹ thuật giao thông, CNTT, Cơ khí, Điện-Điện tử), phòng gym, hệ thống Wi-Fi miễn phí.",
-    "priority": 1
+    "keywords": [
+      "logistics khác gì",
+      "logistics uth"
+    ],
+    "response": "Logistics UTH là 'hàng hiệu' nha! 🚢 Chuyên sâu về vận tải, cảng biển mà ít trường nào có. Thực tập thực chiến tại cảng, kho bãi lớn.",
+    "priority": 10
   },
   {
-    "keywords": ["công nghệ thông tin", "cntt", "ai", "lập trình"],
-    "response": "Ngành CNTT có chuyên ngành Trí tuệ nhân tạo, Lập trình ứng dụng. Sinh viên tham gia cuộc thi ACM, Olympic Tin học, và học các công nghệ mới như IoT, giao thông thông minh.",
-    "priority": 1
+    "keywords": [
+      "long thành",
+      "san bay"
+    ],
+    "response": "UTH đang tham gia đào tạo nhân lực cho Sân bay Long Thành ✈️. Cơ hội việc làm cho SV Hàng không, Xây dựng, Logistics là cực lớn!",
+    "priority": 10
   },
   {
-    "keywords": ["xây dựng giao thông", "cầu đường", "hạ tầng"],
-    "response": "Kỹ thuật xây dựng công trình giao thông bao gồm: cầu đường, cảng biển/sông, sân bay, đường sắt, hầm, luồng lạch. Sinh viên tham gia cuộc thi Thiết kế cầu.",
-    "priority": 1
+    "keywords": [
+      "vinfast",
+      "lam vinfast"
+    ],
+    "response": "Sinh viên Ô tô UTH được VinFast, Toyota săn đón lắm đó 🚗. Học giỏi là có cơ hội thực tập và làm việc tại nhà máy luôn!",
+    "priority": 10
   },
   {
-    "keywords": ["kinh tế vận tải", "logistics", "chuỗi cung ứng"],
-    "response": "Kinh tế vận tải có chuyên ngành vận tải biển, đường bộ, đường sắt. Logistics tập trung quản lý chuỗi cung ứng, kho bãi. Có chương trình tham quan cảng, nhà máy.",
-    "priority": 1
+    "keywords": [
+      "ngành công nghệ thông tin",
+      "ngành cntt",
+      "ngành it",
+      "ngành tin học",
+      "học công nghệ thông tin",
+      "học cntt",
+      "học it",
+      "học tin học"
+    ],
+    "response": "Ngành CNTT: Ngành mũi nhọn, đào tạo chuyên sâu về phần mềm, AI và an toàn thông tin. 🎓 Điểm chuẩn tham khảo: 22-24 điểm. Đây là lựa chọn tuyệt vời nếu bạn đam mê lĩnh vực này!",
+    "priority": 5
   },
   {
-    "keywords": ["điện điện tử", "tự động hóa", "hệ thống điện"],
-    "response": "Kỹ thuật Điện-Điện tử chuyên về hệ thống điện giao thông. Điều khiển Tự động hóa ứng dụng trong giao thông thông minh và hệ thống tự động.",
-    "priority": 1
+    "keywords": [
+      "điểm chuẩn công nghệ thông tin",
+      "điểm chuẩn cntt",
+      "điểm chuẩn it",
+      "điểm chuẩn tin học",
+      "điểm công nghệ thông tin",
+      "điểm cntt",
+      "điểm it",
+      "điểm tin học"
+    ],
+    "response": "Điểm chuẩn ngành CNTT thường dao động khoảng 22-24 điểm (xét điểm thi THPT). Nếu xét học bạ thì cần cao hơn xíu nha (khoảng 24-27 điểm tùy năm). 📊",
+    "priority": 4
   },
   {
-    "keywords": ["cơ khí", "ô tô", "chế tạo máy"],
-    "response": "Kỹ thuật Cơ khí có chuyên ngành cơ khí giao thông, chế tạo máy. Kỹ thuật Ô tô tập trung thiết kế, bảo trì phương tiện giao thông.",
-    "priority": 1
+    "keywords": [
+      "ra trường làm gì công nghệ thông tin",
+      "ra trường làm gì cntt",
+      "ra trường làm gì it",
+      "ra trường làm gì tin học",
+      "việc làm công nghệ thông tin",
+      "việc làm cntt",
+      "việc làm it",
+      "việc làm tin học"
+    ],
+    "response": "Học CNTT ra trường làm: Lập trình viên, Chuyên viên dữ liệu, Quản trị mạng, AI Engineer. Cơ hội việc làm rất rộng mở với thu nhập hấp dẫn! 💼",
+    "priority": 4
   },
   {
-    "keywords": ["môi trường", "xanh", "bền vững"],
-    "response": "Kỹ thuật Môi trường chuyên xử lý môi trường trong giao thông, phát triển giao thông xanh và bền vững.",
-    "priority": 1
+    "keywords": [
+      "học phí công nghệ thông tin",
+      "học phí cntt",
+      "học phí it",
+      "học phí tin học"
+    ],
+    "response": "Học phí ngành CNTT theo tín chỉ, trung bình khoảng 13-16 triệu/năm (chương trình đại trà). Chất lượng cao thì khoảng 28-30 triệu/năm. 💰",
+    "priority": 3
   },
   {
-    "keywords": ["quản trị kinh doanh", "marketing", "doanh nghiệp"],
-    "response": "Quản trị Kinh doanh có chuyên ngành quản trị doanh nghiệp, marketing. Hỗ trợ khởi nghiệp qua CLB Khởi nghiệp và các workshop.",
-    "priority": 1
+    "keywords": [
+      "ngành logistics",
+      "ngành chuỗi cung ứng",
+      "ngành log",
+      "ngành logistics và quản lý chuỗi cung ứng",
+      "học logistics",
+      "học chuỗi cung ứng",
+      "học log",
+      "học logistics và quản lý chuỗi cung ứng"
+    ],
+    "response": "Ngành Logistics: Thế mạnh của UTH, đào tạo quy trình vận hành chuỗi cung ứng quốc tế. 🎓 Điểm chuẩn tham khảo: 21-23 điểm. Đây là lựa chọn tuyệt vời nếu bạn đam mê lĩnh vực này!",
+    "priority": 5
   },
   {
-    "keywords": ["ngoại ngữ", "tiếng anh", "tiếng hàn", "tiếng trung"],
-    "response": "UTH cung cấp lớp tiếng Anh tăng cường, tiếng Hàn, tiếng Trung. CLB tiếng Anh tổ chức giao lưu và luyện thi TOEIC.",
-    "priority": 1
+    "keywords": [
+      "điểm chuẩn logistics",
+      "điểm chuẩn chuỗi cung ứng",
+      "điểm chuẩn log",
+      "điểm chuẩn logistics và quản lý chuỗi cung ứng",
+      "điểm logistics",
+      "điểm chuỗi cung ứng",
+      "điểm log",
+      "điểm logistics và quản lý chuỗi cung ứng"
+    ],
+    "response": "Điểm chuẩn ngành Logistics thường dao động khoảng 21-23 điểm (xét điểm thi THPT). Nếu xét học bạ thì cần cao hơn xíu nha (khoảng 24-27 điểm tùy năm). 📊",
+    "priority": 4
   },
   {
-    "keywords": ["học lại", "chuyển ngành", "song ngành"],
-    "response": "UTH cho phép học lại môn với lịch linh hoạt, chuyển ngành trong năm đầu, và đăng ký song ngành (VD: CNTT + Logistics) theo quy định.",
-    "priority": 1
+    "keywords": [
+      "ra trường làm gì logistics",
+      "ra trường làm gì chuỗi cung ứng",
+      "ra trường làm gì log",
+      "ra trường làm gì logistics và quản lý chuỗi cung ứng",
+      "việc làm logistics",
+      "việc làm chuỗi cung ứng",
+      "việc làm log",
+      "việc làm logistics và quản lý chuỗi cung ứng"
+    ],
+    "response": "Học Logistics ra trường làm: Nhân viên xuất nhập khẩu, Quản lý kho, Điều phối vận tải, Purchasing. Cơ hội việc làm rất rộng mở với thu nhập hấp dẫn! 💼",
+    "priority": 4
   },
   {
-    "keywords": ["y tế", "sức khỏe", "tư vấn tâm lý"],
-    "response": "UTH có trạm y tế tại Cơ sở 1, Trung tâm Tư vấn Tâm lý Sinh viên (miễn phí), và chính sách hỗ trợ sinh viên khuyết tật.",
-    "priority": 1
+    "keywords": [
+      "học phí logistics",
+      "học phí chuỗi cung ứng",
+      "học phí log",
+      "học phí logistics và quản lý chuỗi cung ứng"
+    ],
+    "response": "Học phí ngành Logistics theo tín chỉ, trung bình khoảng 13-16 triệu/năm (chương trình đại trà). Chất lượng cao thì khoảng 28-30 triệu/năm. 💰",
+    "priority": 3
   },
   {
-    "keywords": ["nghiên cứu khoa học", "dự án", "sáng tạo"],
-    "response": "Trung tâm Nghiên cứu và Ứng dụng Kỹ thuật Giao thông hỗ trợ sinh viên tham gia dự án thực tiễn. Quỹ nghiên cứu khoa học từ năm 2.",
-    "priority": 1
+    "keywords": [
+      "ngành kỹ thuật ô tô",
+      "ngành ô tô",
+      "ngành oto",
+      "ngành cơ khí ô tô",
+      "học kỹ thuật ô tô",
+      "học ô tô",
+      "học oto",
+      "học cơ khí ô tô"
+    ],
+    "response": "Ngành Kỹ thuật Ô tô: Đào tạo kỹ sư ô tô thực chiến, thực hành tại xưởng hiện đại và doanh nghiệp lớn. 🎓 Điểm chuẩn tham khảo: 20-22 điểm. Đây là lựa chọn tuyệt vời nếu bạn đam mê lĩnh vực này!",
+    "priority": 5
   },
   {
-    "keywords": ["kỹ năng mềm", "phỏng vấn", "cv", "nghề nghiệp"],
-    "response": "UTH tổ chức workshop kỹ năng giao tiếp, làm việc nhóm, viết CV, phỏng vấn, và định hướng nghề nghiệp từ năm nhất.",
-    "priority": 1
+    "keywords": [
+      "điểm chuẩn kỹ thuật ô tô",
+      "điểm chuẩn ô tô",
+      "điểm chuẩn oto",
+      "điểm chuẩn cơ khí ô tô",
+      "điểm kỹ thuật ô tô",
+      "điểm ô tô",
+      "điểm oto",
+      "điểm cơ khí ô tô"
+    ],
+    "response": "Điểm chuẩn ngành Kỹ thuật Ô tô thường dao động khoảng 20-22 điểm (xét điểm thi THPT). Nếu xét học bạ thì cần cao hơn xíu nha (khoảng 24-27 điểm tùy năm). 📊",
+    "priority": 4
   },
   {
-    "keywords": ["thể thao", "giải đấu", "sân chơi"],
-    "response": "UTH tổ chức giải bóng đá, bóng chuyền, cầu lông hàng năm. Có phòng gym hiện đại tại cả 2 cơ sở.",
-    "priority": 1
+    "keywords": [
+      "ra trường làm gì kỹ thuật ô tô",
+      "ra trường làm gì ô tô",
+      "ra trường làm gì oto",
+      "ra trường làm gì cơ khí ô tô",
+      "việc làm kỹ thuật ô tô",
+      "việc làm ô tô",
+      "việc làm oto",
+      "việc làm cơ khí ô tô"
+    ],
+    "response": "Học Kỹ thuật Ô tô ra trường làm: Kỹ sư thiết kế, Kỹ thuật viên bảo dưỡng, Đăng kiểm viên, Kinh doanh ô tô. Cơ hội việc làm rất rộng mở với thu nhập hấp dẫn! 💼",
+    "priority": 4
   },
   {
-    "keywords": ["văn hóa", "lễ hội", "sự kiện"],
-    "response": "UTH tổ chức Ngày hội Văn hóa, Lễ hội Âm nhạc, Tết truyền thống, và các buổi giao lưu cựu sinh viên chia sẻ kinh nghiệm.",
-    "priority": 1
+    "keywords": [
+      "học phí kỹ thuật ô tô",
+      "học phí ô tô",
+      "học phí oto",
+      "học phí cơ khí ô tô"
+    ],
+    "response": "Học phí ngành Kỹ thuật Ô tô theo tín chỉ, trung bình khoảng 13-16 triệu/năm (chương trình đại trà). Chất lượng cao thì khoảng 28-30 triệu/năm. 💰",
+    "priority": 3
   },
   {
-    "keywords": ["học liệu", "tài liệu", "lms", "online"],
-    "response": "UTH sử dụng hệ thống LMS quản lý học tập trực tuyến, thư viện số, email sinh viên (@student.utc2.edu.vn) để truy cập tài liệu chuyên ngành.",
-    "priority": 1
+    "keywords": [
+      "ngành kinh tế vận tải",
+      "ngành kinh te van tai",
+      "ngành ktvt",
+      "học kinh tế vận tải",
+      "học kinh te van tai",
+      "học ktvt"
+    ],
+    "response": "Ngành Kinh tế Vận tải: Kết hợp kiến thức kinh tế và kỹ thuật vận tải, độc quyền đào tạo phía Nam. 🎓 Điểm chuẩn tham khảo: 18-20 điểm. Đây là lựa chọn tuyệt vời nếu bạn đam mê lĩnh vực này!",
+    "priority": 5
   },
   {
-    "keywords": ["vay vốn", "tín dụng", "hỗ trợ tài chính"],
-    "response": "Sinh viên UTH có thể đăng ký vay vốn học phí qua chương trình tín dụng của các ngân hàng liên kết với trường.",
-    "priority": 1
+    "keywords": [
+      "điểm chuẩn kinh tế vận tải",
+      "điểm chuẩn kinh te van tai",
+      "điểm chuẩn ktvt",
+      "điểm kinh tế vận tải",
+      "điểm kinh te van tai",
+      "điểm ktvt"
+    ],
+    "response": "Điểm chuẩn ngành Kinh tế Vận tải thường dao động khoảng 18-20 điểm (xét điểm thi THPT). Nếu xét học bạ thì cần cao hơn xíu nha (khoảng 24-27 điểm tùy năm). 📊",
+    "priority": 4
   },
   {
-    "keywords": ["xe buýt", "đưa đón", "di chuyển"],
-    "response": "UTH có xe buýt đưa đón miễn phí giữa Cơ sở 1 (Bình Thạnh) và Cơ sở 2 (Q.9) để hỗ trợ sinh viên di chuyển.",
-    "priority": 1
+    "keywords": [
+      "ra trường làm gì kinh tế vận tải",
+      "ra trường làm gì kinh te van tai",
+      "ra trường làm gì ktvt",
+      "việc làm kinh tế vận tải",
+      "việc làm kinh te van tai",
+      "việc làm ktvt"
+    ],
+    "response": "Học Kinh tế Vận tải ra trường làm: Quản lý đội xe, Kinh doanh cước, Điều hành vận tải, Logistics. Cơ hội việc làm rất rộng mở với thu nhập hấp dẫn! 💼",
+    "priority": 4
   },
   {
-    "keywords": ["khóa học hè", "ngắn hạn", "chứng chỉ"],
-    "response": "UTH tổ chức khóa học hè về kỹ năng chuyên môn, ngoại ngữ và các chứng chỉ nghề ngắn hạn: an toàn giao thông, logistics, phần mềm kỹ thuật.",
-    "priority": 1
+    "keywords": [
+      "học phí kinh tế vận tải",
+      "học phí kinh te van tai",
+      "học phí ktvt"
+    ],
+    "response": "Học phí ngành Kinh tế Vận tải theo tín chỉ, trung bình khoảng 13-16 triệu/năm (chương trình đại trà). Chất lượng cao thì khoảng 28-30 triệu/năm. 💰",
+    "priority": 3
   },
   {
-    "keywords": ["cuộc thi", "olympic", "quốc tế"],
-    "response": "Sinh viên UTH tham gia Olympic Cơ học, Thiết kế cầu, Lập trình ACM, Thiết kế giao thông châu Á và các cuộc thi lập trình quốc tế.",
-    "priority": 1
+    "keywords": [
+      "ngành khai thác vận tải",
+      "ngành khai thac van tai",
+      "ngành ktvt",
+      "học khai thác vận tải",
+      "học khai thac van tai",
+      "học ktvt"
+    ],
+    "response": "Ngành Khai thác Vận tải: Quản lý và vận hành hệ thống giao thông vận tải đường bộ, sắt, thủy, hàng không. 🎓 Điểm chuẩn tham khảo: 17-19 điểm. Đây là lựa chọn tuyệt vời nếu bạn đam mê lĩnh vực này!",
+    "priority": 5
   },
   {
-    "keywords": ["nhà trọ", "chỗ ở", "thuê nhà"],
-    "response": "Trung tâm Hỗ trợ Sinh viên cung cấp danh sách nhà trọ uy tín, giá phù hợp gần cả 2 cơ sở của trường.",
-    "priority": 1
+    "keywords": [
+      "điểm chuẩn khai thác vận tải",
+      "điểm chuẩn khai thac van tai",
+      "điểm chuẩn ktvt",
+      "điểm khai thác vận tải",
+      "điểm khai thac van tai",
+      "điểm ktvt"
+    ],
+    "response": "Điểm chuẩn ngành Khai thác Vận tải thường dao động khoảng 17-19 điểm (xét điểm thi THPT). Nếu xét học bạ thì cần cao hơn xíu nha (khoảng 24-27 điểm tùy năm). 📊",
+    "priority": 4
   },
   {
-    "keywords": ["ăn uống", "căng tin", "thực phẩm"],
-    "response": "UTH có căng tin thực đơn đa dạng, dinh dưỡng và giá cả hợp lý phù hợp túi tiền sinh viên.",
+    "keywords": [
+      "ra trường làm gì khai thác vận tải",
+      "ra trường làm gì khai thac van tai",
+      "ra trường làm gì ktvt",
+      "việc làm khai thác vận tải",
+      "việc làm khai thac van tai",
+      "việc làm ktvt"
+    ],
+    "response": "Học Khai thác Vận tải ra trường làm: Điều độ viên, Quản lý ga, cảng, Sân bay. Cơ hội việc làm rất rộng mở với thu nhập hấp dẫn! 💼",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "học phí khai thác vận tải",
+      "học phí khai thac van tai",
+      "học phí ktvt"
+    ],
+    "response": "Học phí ngành Khai thác Vận tải theo tín chỉ, trung bình khoảng 13-16 triệu/năm (chương trình đại trà). Chất lượng cao thì khoảng 28-30 triệu/năm. 💰",
+    "priority": 3
+  },
+  {
+    "keywords": [
+      "ngành khoa học hàng hải",
+      "ngành hàng hải",
+      "ngành đi biển",
+      "ngành thuyền trưởng",
+      "học khoa học hàng hải",
+      "học hàng hải",
+      "học đi biển",
+      "học thuyền trưởng"
+    ],
+    "response": "Ngành Hàng hải: Đào tạo sỹ quan hàng hải tiêu chuẩn quốc tế IMO. 🎓 Điểm chuẩn tham khảo: 16-18 điểm. Đây là lựa chọn tuyệt vời nếu bạn đam mê lĩnh vực này!",
+    "priority": 5
+  },
+  {
+    "keywords": [
+      "điểm chuẩn khoa học hàng hải",
+      "điểm chuẩn hàng hải",
+      "điểm chuẩn đi biển",
+      "điểm chuẩn thuyền trưởng",
+      "điểm khoa học hàng hải",
+      "điểm hàng hải",
+      "điểm đi biển",
+      "điểm thuyền trưởng"
+    ],
+    "response": "Điểm chuẩn ngành Hàng hải thường dao động khoảng 16-18 điểm (xét điểm thi THPT). Nếu xét học bạ thì cần cao hơn xíu nha (khoảng 24-27 điểm tùy năm). 📊",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "ra trường làm gì khoa học hàng hải",
+      "ra trường làm gì hàng hải",
+      "ra trường làm gì đi biển",
+      "ra trường làm gì thuyền trưởng",
+      "việc làm khoa học hàng hải",
+      "việc làm hàng hải",
+      "việc làm đi biển",
+      "việc làm thuyền trưởng"
+    ],
+    "response": "Học Hàng hải ra trường làm: Sỹ quan boong, Thuyền trưởng, Hoa tiêu hàng hải. Cơ hội việc làm rất rộng mở với thu nhập hấp dẫn! 💼",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "học phí khoa học hàng hải",
+      "học phí hàng hải",
+      "học phí đi biển",
+      "học phí thuyền trưởng"
+    ],
+    "response": "Học phí ngành Hàng hải theo tín chỉ, trung bình khoảng 13-16 triệu/năm (chương trình đại trà). Chất lượng cao thì khoảng 28-30 triệu/năm. 💰",
+    "priority": 3
+  },
+  {
+    "keywords": [
+      "ngành kỹ thuật điện",
+      "ngành điện tử",
+      "ngành điện công nghiệp",
+      "học kỹ thuật điện",
+      "học điện tử",
+      "học điện công nghiệp"
+    ],
+    "response": "Ngành Điện - Điện tử: Chuyên sâu về điện công nghiệp, điện tàu thủy và năng lượng tái tạo. 🎓 Điểm chuẩn tham khảo: 19-21 điểm. Đây là lựa chọn tuyệt vời nếu bạn đam mê lĩnh vực này!",
+    "priority": 5
+  },
+  {
+    "keywords": [
+      "điểm chuẩn kỹ thuật điện",
+      "điểm chuẩn điện tử",
+      "điểm chuẩn điện công nghiệp",
+      "điểm kỹ thuật điện",
+      "điểm điện tử",
+      "điểm điện công nghiệp"
+    ],
+    "response": "Điểm chuẩn ngành Điện - Điện tử thường dao động khoảng 19-21 điểm (xét điểm thi THPT). Nếu xét học bạ thì cần cao hơn xíu nha (khoảng 24-27 điểm tùy năm). 📊",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "ra trường làm gì kỹ thuật điện",
+      "ra trường làm gì điện tử",
+      "ra trường làm gì điện công nghiệp",
+      "việc làm kỹ thuật điện",
+      "việc làm điện tử",
+      "việc làm điện công nghiệp"
+    ],
+    "response": "Học Điện - Điện tử ra trường làm: Kỹ sư điện, Tự động hóa, Bảo trì hệ thống điện. Cơ hội việc làm rất rộng mở với thu nhập hấp dẫn! 💼",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "học phí kỹ thuật điện",
+      "học phí điện tử",
+      "học phí điện công nghiệp"
+    ],
+    "response": "Học phí ngành Điện - Điện tử theo tín chỉ, trung bình khoảng 13-16 triệu/năm (chương trình đại trà). Chất lượng cao thì khoảng 28-30 triệu/năm. 💰",
+    "priority": 3
+  },
+  {
+    "keywords": [
+      "ngành kỹ thuật cơ khí",
+      "ngành cơ khí",
+      "ngành co khi",
+      "học kỹ thuật cơ khí",
+      "học cơ khí",
+      "học co khi"
+    ],
+    "response": "Ngành Cơ khí: Nền tảng của khối kỹ thuật, đào tạo chế tạo máy và cơ khí động lực. 🎓 Điểm chuẩn tham khảo: 18-20 điểm. Đây là lựa chọn tuyệt vời nếu bạn đam mê lĩnh vực này!",
+    "priority": 5
+  },
+  {
+    "keywords": [
+      "điểm chuẩn kỹ thuật cơ khí",
+      "điểm chuẩn cơ khí",
+      "điểm chuẩn co khi",
+      "điểm kỹ thuật cơ khí",
+      "điểm cơ khí",
+      "điểm co khi"
+    ],
+    "response": "Điểm chuẩn ngành Cơ khí thường dao động khoảng 18-20 điểm (xét điểm thi THPT). Nếu xét học bạ thì cần cao hơn xíu nha (khoảng 24-27 điểm tùy năm). 📊",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "ra trường làm gì kỹ thuật cơ khí",
+      "ra trường làm gì cơ khí",
+      "ra trường làm gì co khi",
+      "việc làm kỹ thuật cơ khí",
+      "việc làm cơ khí",
+      "việc làm co khi"
+    ],
+    "response": "Học Cơ khí ra trường làm: Kỹ sư thiết kế máy, Gia công CNC, Bảo trì cơ khí. Cơ hội việc làm rất rộng mở với thu nhập hấp dẫn! 💼",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "học phí kỹ thuật cơ khí",
+      "học phí cơ khí",
+      "học phí co khi"
+    ],
+    "response": "Học phí ngành Cơ khí theo tín chỉ, trung bình khoảng 13-16 triệu/năm (chương trình đại trà). Chất lượng cao thì khoảng 28-30 triệu/năm. 💰",
+    "priority": 3
+  },
+  {
+    "keywords": [
+      "ngành kỹ thuật xây dựng",
+      "ngành xây dựng",
+      "ngành cầu đường",
+      "học kỹ thuật xây dựng",
+      "học xây dựng",
+      "học cầu đường"
+    ],
+    "response": "Ngành Xây dựng: Xây dựng công trình giao thông, cầu đường, metro, đường sắt cao tốc. 🎓 Điểm chuẩn tham khảo: 17-19 điểm. Đây là lựa chọn tuyệt vời nếu bạn đam mê lĩnh vực này!",
+    "priority": 5
+  },
+  {
+    "keywords": [
+      "điểm chuẩn kỹ thuật xây dựng",
+      "điểm chuẩn xây dựng",
+      "điểm chuẩn cầu đường",
+      "điểm kỹ thuật xây dựng",
+      "điểm xây dựng",
+      "điểm cầu đường"
+    ],
+    "response": "Điểm chuẩn ngành Xây dựng thường dao động khoảng 17-19 điểm (xét điểm thi THPT). Nếu xét học bạ thì cần cao hơn xíu nha (khoảng 24-27 điểm tùy năm). 📊",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "ra trường làm gì kỹ thuật xây dựng",
+      "ra trường làm gì xây dựng",
+      "ra trường làm gì cầu đường",
+      "việc làm kỹ thuật xây dựng",
+      "việc làm xây dựng",
+      "việc làm cầu đường"
+    ],
+    "response": "Học Xây dựng ra trường làm: Kỹ sư cầu đường, Giám sát công trình, Thiết kế kết cấu. Cơ hội việc làm rất rộng mở với thu nhập hấp dẫn! 💼",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "học phí kỹ thuật xây dựng",
+      "học phí xây dựng",
+      "học phí cầu đường"
+    ],
+    "response": "Học phí ngành Xây dựng theo tín chỉ, trung bình khoảng 13-16 triệu/năm (chương trình đại trà). Chất lượng cao thì khoảng 28-30 triệu/năm. 💰",
+    "priority": 3
+  },
+  {
+    "keywords": [
+      "ngành quản trị kinh doanh",
+      "ngành qtkd",
+      "ngành kinh doanh",
+      "học quản trị kinh doanh",
+      "học qtkd",
+      "học kinh doanh"
+    ],
+    "response": "Ngành Quản trị Kinh doanh: Đào tạo quản trị doanh nghiệp với định hướng ngành giao thông vận tải. 🎓 Điểm chuẩn tham khảo: 19-21 điểm. Đây là lựa chọn tuyệt vời nếu bạn đam mê lĩnh vực này!",
+    "priority": 5
+  },
+  {
+    "keywords": [
+      "điểm chuẩn quản trị kinh doanh",
+      "điểm chuẩn qtkd",
+      "điểm chuẩn kinh doanh",
+      "điểm quản trị kinh doanh",
+      "điểm qtkd",
+      "điểm kinh doanh"
+    ],
+    "response": "Điểm chuẩn ngành Quản trị Kinh doanh thường dao động khoảng 19-21 điểm (xét điểm thi THPT). Nếu xét học bạ thì cần cao hơn xíu nha (khoảng 24-27 điểm tùy năm). 📊",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "ra trường làm gì quản trị kinh doanh",
+      "ra trường làm gì qtkd",
+      "ra trường làm gì kinh doanh",
+      "việc làm quản trị kinh doanh",
+      "việc làm qtkd",
+      "việc làm kinh doanh"
+    ],
+    "response": "Học Quản trị Kinh doanh ra trường làm: Nhân viên kinh doanh, Marketing, HR, Quản lý dự án. Cơ hội việc làm rất rộng mở với thu nhập hấp dẫn! 💼",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "học phí quản trị kinh doanh",
+      "học phí qtkd",
+      "học phí kinh doanh"
+    ],
+    "response": "Học phí ngành Quản trị Kinh doanh theo tín chỉ, trung bình khoảng 13-16 triệu/năm (chương trình đại trà). Chất lượng cao thì khoảng 28-30 triệu/năm. 💰",
+    "priority": 3
+  },
+  {
+    "keywords": [
+      "ngành kế toán",
+      "ngành ke toan",
+      "học kế toán",
+      "học ke toan"
+    ],
+    "response": "Ngành Kế toán: Nghiệp vụ kế toán chuyên sâu cho doanh nghiệp vận tải và xây dựng. 🎓 Điểm chuẩn tham khảo: 18-20 điểm. Đây là lựa chọn tuyệt vời nếu bạn đam mê lĩnh vực này!",
+    "priority": 5
+  },
+  {
+    "keywords": [
+      "điểm chuẩn kế toán",
+      "điểm chuẩn ke toan",
+      "điểm kế toán",
+      "điểm ke toan"
+    ],
+    "response": "Điểm chuẩn ngành Kế toán thường dao động khoảng 18-20 điểm (xét điểm thi THPT). Nếu xét học bạ thì cần cao hơn xíu nha (khoảng 24-27 điểm tùy năm). 📊",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "ra trường làm gì kế toán",
+      "ra trường làm gì ke toan",
+      "việc làm kế toán",
+      "việc làm ke toan"
+    ],
+    "response": "Học Kế toán ra trường làm: Kế toán viên, Kiểm toán, Thuế, Tài chính. Cơ hội việc làm rất rộng mở với thu nhập hấp dẫn! 💼",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "học phí kế toán",
+      "học phí ke toan"
+    ],
+    "response": "Học phí ngành Kế toán theo tín chỉ, trung bình khoảng 13-16 triệu/năm (chương trình đại trà). Chất lượng cao thì khoảng 28-30 triệu/năm. 💰",
+    "priority": 3
+  },
+  {
+    "keywords": [
+      "ngành ngôn ngữ anh",
+      "ngành tiếng anh",
+      "ngành nna",
+      "học ngôn ngữ anh",
+      "học tiếng anh",
+      "học nna"
+    ],
+    "response": "Ngành Ngôn ngữ Anh: Tiếng Anh chuyên ngành thương mại và vận tải quốc tế. 🎓 Điểm chuẩn tham khảo: 19-21 điểm. Đây là lựa chọn tuyệt vời nếu bạn đam mê lĩnh vực này!",
+    "priority": 5
+  },
+  {
+    "keywords": [
+      "điểm chuẩn ngôn ngữ anh",
+      "điểm chuẩn tiếng anh",
+      "điểm chuẩn nna",
+      "điểm ngôn ngữ anh",
+      "điểm tiếng anh",
+      "điểm nna"
+    ],
+    "response": "Điểm chuẩn ngành Ngôn ngữ Anh thường dao động khoảng 19-21 điểm (xét điểm thi THPT). Nếu xét học bạ thì cần cao hơn xíu nha (khoảng 24-27 điểm tùy năm). 📊",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "ra trường làm gì ngôn ngữ anh",
+      "ra trường làm gì tiếng anh",
+      "ra trường làm gì nna",
+      "việc làm ngôn ngữ anh",
+      "việc làm tiếng anh",
+      "việc làm nna"
+    ],
+    "response": "Học Ngôn ngữ Anh ra trường làm: Phiên dịch, Biên dịch, Giảng dạy, Logistics quốc tế. Cơ hội việc làm rất rộng mở với thu nhập hấp dẫn! 💼",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "học phí ngôn ngữ anh",
+      "học phí tiếng anh",
+      "học phí nna"
+    ],
+    "response": "Học phí ngành Ngôn ngữ Anh theo tín chỉ, trung bình khoảng 13-16 triệu/năm (chương trình đại trà). Chất lượng cao thì khoảng 28-30 triệu/năm. 💰",
+    "priority": 3
+  },
+  {
+    "keywords": [
+      "ngành mạng máy tính",
+      "ngành truyền thông dữ liệu",
+      "ngành mmt",
+      "học mạng máy tính",
+      "học truyền thông dữ liệu",
+      "học mmt"
+    ],
+    "response": "Ngành Mạng máy tính: Chuyên sâu về hạ tầng mạng, bảo mật và điện toán đám mây. 🎓 Điểm chuẩn tham khảo: 19-21 điểm. Đây là lựa chọn tuyệt vời nếu bạn đam mê lĩnh vực này!",
+    "priority": 5
+  },
+  {
+    "keywords": [
+      "điểm chuẩn mạng máy tính",
+      "điểm chuẩn truyền thông dữ liệu",
+      "điểm chuẩn mmt",
+      "điểm mạng máy tính",
+      "điểm truyền thông dữ liệu",
+      "điểm mmt"
+    ],
+    "response": "Điểm chuẩn ngành Mạng máy tính thường dao động khoảng 19-21 điểm (xét điểm thi THPT). Nếu xét học bạ thì cần cao hơn xíu nha (khoảng 24-27 điểm tùy năm). 📊",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "ra trường làm gì mạng máy tính",
+      "ra trường làm gì truyền thông dữ liệu",
+      "ra trường làm gì mmt",
+      "việc làm mạng máy tính",
+      "việc làm truyền thông dữ liệu",
+      "việc làm mmt"
+    ],
+    "response": "Học Mạng máy tính ra trường làm: Quản trị mạng, An ninh mạng, Cloud Computing. Cơ hội việc làm rất rộng mở với thu nhập hấp dẫn! 💼",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "học phí mạng máy tính",
+      "học phí truyền thông dữ liệu",
+      "học phí mmt"
+    ],
+    "response": "Học phí ngành Mạng máy tính theo tín chỉ, trung bình khoảng 13-16 triệu/năm (chương trình đại trà). Chất lượng cao thì khoảng 28-30 triệu/năm. 💰",
+    "priority": 3
+  },
+  {
+    "keywords": [
+      "ngành điện tử viễn thông",
+      "ngành viễn thông",
+      "học điện tử viễn thông",
+      "học viễn thông"
+    ],
+    "response": "Ngành Viễn thông: Đào tạo về hệ thống thông tin liên lạc, vệ tinh, di động 5G. 🎓 Điểm chuẩn tham khảo: 17-19 điểm. Đây là lựa chọn tuyệt vời nếu bạn đam mê lĩnh vực này!",
+    "priority": 5
+  },
+  {
+    "keywords": [
+      "điểm chuẩn điện tử viễn thông",
+      "điểm chuẩn viễn thông",
+      "điểm điện tử viễn thông",
+      "điểm viễn thông"
+    ],
+    "response": "Điểm chuẩn ngành Viễn thông thường dao động khoảng 17-19 điểm (xét điểm thi THPT). Nếu xét học bạ thì cần cao hơn xíu nha (khoảng 24-27 điểm tùy năm). 📊",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "ra trường làm gì điện tử viễn thông",
+      "ra trường làm gì viễn thông",
+      "việc làm điện tử viễn thông",
+      "việc làm viễn thông"
+    ],
+    "response": "Học Viễn thông ra trường làm: Kỹ sư viễn thông, Quản lý trạm BTS, IoT. Cơ hội việc làm rất rộng mở với thu nhập hấp dẫn! 💼",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "học phí điện tử viễn thông",
+      "học phí viễn thông"
+    ],
+    "response": "Học phí ngành Viễn thông theo tín chỉ, trung bình khoảng 13-16 triệu/năm (chương trình đại trà). Chất lượng cao thì khoảng 28-30 triệu/năm. 💰",
+    "priority": 3
+  },
+  {
+    "keywords": [
+      "ngành kỹ thuật tàu thủy",
+      "ngành đóng tàu",
+      "ngành vỏ tàu",
+      "học kỹ thuật tàu thủy",
+      "học đóng tàu",
+      "học vỏ tàu"
+    ],
+    "response": "Ngành Kỹ thuật Tàu thủy: Thiết kế và đóng mới phương tiện thủy, công trình nổi. 🎓 Điểm chuẩn tham khảo: 16-18 điểm. Đây là lựa chọn tuyệt vời nếu bạn đam mê lĩnh vực này!",
+    "priority": 5
+  },
+  {
+    "keywords": [
+      "điểm chuẩn kỹ thuật tàu thủy",
+      "điểm chuẩn đóng tàu",
+      "điểm chuẩn vỏ tàu",
+      "điểm kỹ thuật tàu thủy",
+      "điểm đóng tàu",
+      "điểm vỏ tàu"
+    ],
+    "response": "Điểm chuẩn ngành Kỹ thuật Tàu thủy thường dao động khoảng 16-18 điểm (xét điểm thi THPT). Nếu xét học bạ thì cần cao hơn xíu nha (khoảng 24-27 điểm tùy năm). 📊",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "ra trường làm gì kỹ thuật tàu thủy",
+      "ra trường làm gì đóng tàu",
+      "ra trường làm gì vỏ tàu",
+      "việc làm kỹ thuật tàu thủy",
+      "việc làm đóng tàu",
+      "việc làm vỏ tàu"
+    ],
+    "response": "Học Kỹ thuật Tàu thủy ra trường làm: Kỹ sư đóng tàu, Thiết kế vỏ tàu, Đăng kiểm tàu. Cơ hội việc làm rất rộng mở với thu nhập hấp dẫn! 💼",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "học phí kỹ thuật tàu thủy",
+      "học phí đóng tàu",
+      "học phí vỏ tàu"
+    ],
+    "response": "Học phí ngành Kỹ thuật Tàu thủy theo tín chỉ, trung bình khoảng 13-16 triệu/năm (chương trình đại trà). Chất lượng cao thì khoảng 28-30 triệu/năm. 💰",
+    "priority": 3
+  },
+  {
+    "keywords": [
+      "ngành máy tàu thủy",
+      "ngành máy tàu",
+      "ngành khai thác máy",
+      "học máy tàu thủy",
+      "học máy tàu",
+      "học khai thác máy"
+    ],
+    "response": "Ngành Máy tàu thủy: Vận hành và bảo dưỡng hệ thống động lực tàu thủy. 🎓 Điểm chuẩn tham khảo: 16-18 điểm. Đây là lựa chọn tuyệt vời nếu bạn đam mê lĩnh vực này!",
+    "priority": 5
+  },
+  {
+    "keywords": [
+      "điểm chuẩn máy tàu thủy",
+      "điểm chuẩn máy tàu",
+      "điểm chuẩn khai thác máy",
+      "điểm máy tàu thủy",
+      "điểm máy tàu",
+      "điểm khai thác máy"
+    ],
+    "response": "Điểm chuẩn ngành Máy tàu thủy thường dao động khoảng 16-18 điểm (xét điểm thi THPT). Nếu xét học bạ thì cần cao hơn xíu nha (khoảng 24-27 điểm tùy năm). 📊",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "ra trường làm gì máy tàu thủy",
+      "ra trường làm gì máy tàu",
+      "ra trường làm gì khai thác máy",
+      "việc làm máy tàu thủy",
+      "việc làm máy tàu",
+      "việc làm khai thác máy"
+    ],
+    "response": "Học Máy tàu thủy ra trường làm: Sỹ quan máy, Máy trưởng, Bảo trì máy tàu. Cơ hội việc làm rất rộng mở với thu nhập hấp dẫn! 💼",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "học phí máy tàu thủy",
+      "học phí máy tàu",
+      "học phí khai thác máy"
+    ],
+    "response": "Học phí ngành Máy tàu thủy theo tín chỉ, trung bình khoảng 13-16 triệu/năm (chương trình đại trà). Chất lượng cao thì khoảng 28-30 triệu/năm. 💰",
+    "priority": 3
+  },
+  {
+    "keywords": [
+      "ngành thiết kế vi mạch",
+      "ngành vi mạch",
+      "ngành chip",
+      "học thiết kế vi mạch",
+      "học vi mạch",
+      "học chip"
+    ],
+    "response": "Ngành Thiết kế vi mạch: Ngành mới đón đầu xu hướng bán dẫn, đào tạo thiết kế IC. 🎓 Điểm chuẩn tham khảo: 20-22 điểm. Đây là lựa chọn tuyệt vời nếu bạn đam mê lĩnh vực này!",
+    "priority": 5
+  },
+  {
+    "keywords": [
+      "điểm chuẩn thiết kế vi mạch",
+      "điểm chuẩn vi mạch",
+      "điểm chuẩn chip",
+      "điểm thiết kế vi mạch",
+      "điểm vi mạch",
+      "điểm chip"
+    ],
+    "response": "Điểm chuẩn ngành Thiết kế vi mạch thường dao động khoảng 20-22 điểm (xét điểm thi THPT). Nếu xét học bạ thì cần cao hơn xíu nha (khoảng 24-27 điểm tùy năm). 📊",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "ra trường làm gì thiết kế vi mạch",
+      "ra trường làm gì vi mạch",
+      "ra trường làm gì chip",
+      "việc làm thiết kế vi mạch",
+      "việc làm vi mạch",
+      "việc làm chip"
+    ],
+    "response": "Học Thiết kế vi mạch ra trường làm: Kỹ sư thiết kế chip, Verification Engineer. Cơ hội việc làm rất rộng mở với thu nhập hấp dẫn! 💼",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "học phí thiết kế vi mạch",
+      "học phí vi mạch",
+      "học phí chip"
+    ],
+    "response": "Học phí ngành Thiết kế vi mạch theo tín chỉ, trung bình khoảng 13-16 triệu/năm (chương trình đại trà). Chất lượng cao thì khoảng 28-30 triệu/năm. 💰",
+    "priority": 3
+  },
+  {
+    "keywords": [
+      "ngành khoa học dữ liệu",
+      "ngành data science",
+      "ngành ds",
+      "học khoa học dữ liệu",
+      "học data science",
+      "học ds"
+    ],
+    "response": "Ngành Khoa học dữ liệu: Phân tích dữ liệu lớn, ứng dụng AI trong giao thông và kinh tế. 🎓 Điểm chuẩn tham khảo: 21-23 điểm. Đây là lựa chọn tuyệt vời nếu bạn đam mê lĩnh vực này!",
+    "priority": 5
+  },
+  {
+    "keywords": [
+      "điểm chuẩn khoa học dữ liệu",
+      "điểm chuẩn data science",
+      "điểm chuẩn ds",
+      "điểm khoa học dữ liệu",
+      "điểm data science",
+      "điểm ds"
+    ],
+    "response": "Điểm chuẩn ngành Khoa học dữ liệu thường dao động khoảng 21-23 điểm (xét điểm thi THPT). Nếu xét học bạ thì cần cao hơn xíu nha (khoảng 24-27 điểm tùy năm). 📊",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "ra trường làm gì khoa học dữ liệu",
+      "ra trường làm gì data science",
+      "ra trường làm gì ds",
+      "việc làm khoa học dữ liệu",
+      "việc làm data science",
+      "việc làm ds"
+    ],
+    "response": "Học Khoa học dữ liệu ra trường làm: Data Scientist, Data Analyst, AI Engineer. Cơ hội việc làm rất rộng mở với thu nhập hấp dẫn! 💼",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "học phí khoa học dữ liệu",
+      "học phí data science",
+      "học phí ds"
+    ],
+    "response": "Học phí ngành Khoa học dữ liệu theo tín chỉ, trung bình khoảng 13-16 triệu/năm (chương trình đại trà). Chất lượng cao thì khoảng 28-30 triệu/năm. 💰",
+    "priority": 3
+  },
+  {
+    "keywords": [
+      "ngành luật",
+      "ngành luật kinh tế",
+      "học luật",
+      "học luật kinh tế"
+    ],
+    "response": "Ngành Luật: Trọng tâm về luật kinh tế, luật hàng hải và thương mại quốc tế. 🎓 Điểm chuẩn tham khảo: 19-21 điểm. Đây là lựa chọn tuyệt vời nếu bạn đam mê lĩnh vực này!",
+    "priority": 5
+  },
+  {
+    "keywords": [
+      "điểm chuẩn luật",
+      "điểm chuẩn luật kinh tế",
+      "điểm luật",
+      "điểm luật kinh tế"
+    ],
+    "response": "Điểm chuẩn ngành Luật thường dao động khoảng 19-21 điểm (xét điểm thi THPT). Nếu xét học bạ thì cần cao hơn xíu nha (khoảng 24-27 điểm tùy năm). 📊",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "ra trường làm gì luật",
+      "ra trường làm gì luật kinh tế",
+      "việc làm luật",
+      "việc làm luật kinh tế"
+    ],
+    "response": "Học Luật ra trường làm: Chuyên viên pháp lý, Luật sư, Tư vấn luật. Cơ hội việc làm rất rộng mở với thu nhập hấp dẫn! 💼",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "học phí luật",
+      "học phí luật kinh tế"
+    ],
+    "response": "Học phí ngành Luật theo tín chỉ, trung bình khoảng 13-16 triệu/năm (chương trình đại trà). Chất lượng cao thì khoảng 28-30 triệu/năm. 💰",
+    "priority": 3
+  },
+  {
+    "keywords": [
+      "ngành hệ thống thông tin quản lý",
+      "ngành mis",
+      "học hệ thống thông tin quản lý",
+      "học mis"
+    ],
+    "response": "Ngành Hệ thống thông tin quản lý: Cầu nối giữa kinh tế và công nghệ, quản trị bằng dữ liệu. 🎓 Điểm chuẩn tham khảo: 20-22 điểm. Đây là lựa chọn tuyệt vời nếu bạn đam mê lĩnh vực này!",
+    "priority": 5
+  },
+  {
+    "keywords": [
+      "điểm chuẩn hệ thống thông tin quản lý",
+      "điểm chuẩn mis",
+      "điểm hệ thống thông tin quản lý",
+      "điểm mis"
+    ],
+    "response": "Điểm chuẩn ngành Hệ thống thông tin quản lý thường dao động khoảng 20-22 điểm (xét điểm thi THPT). Nếu xét học bạ thì cần cao hơn xíu nha (khoảng 24-27 điểm tùy năm). 📊",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "ra trường làm gì hệ thống thông tin quản lý",
+      "ra trường làm gì mis",
+      "việc làm hệ thống thông tin quản lý",
+      "việc làm mis"
+    ],
+    "response": "Học Hệ thống thông tin quản lý ra trường làm: BA, Quản trị hệ thống ERP, Tư vấn giải pháp. Cơ hội việc làm rất rộng mở với thu nhập hấp dẫn! 💼",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "học phí hệ thống thông tin quản lý",
+      "học phí mis"
+    ],
+    "response": "Học phí ngành Hệ thống thông tin quản lý theo tín chỉ, trung bình khoảng 13-16 triệu/năm (chương trình đại trà). Chất lượng cao thì khoảng 28-30 triệu/năm. 💰",
+    "priority": 3
+  },
+  {
+    "keywords": [
+      "phòng đào tạo",
+      "pđt",
+      "pdt",
+      "đào tạo",
+      "liên hệ phòng đào tạo"
+    ],
+    "response": "Phòng Đào tạo chuyên về quản lý điểm, đăng ký môn học, thời khóa biểu, tốt nghiệp. 📞 Liên hệ: (028) 3512-0756 | daotao@utc2.edu.vn | Phòng E001 (CS1). Cần hỗ trợ giấy tờ gì thì ghé đây nhé!",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "phòng công tác sinh viên",
+      "ctsv",
+      "pctsv",
+      "liên hệ phòng công tác sinh viên"
+    ],
+    "response": "Phòng Công tác Sinh viên chuyên về học bổng, rèn luyện, chế độ chính sách, xác nhận sinh viên. 📞 Liên hệ: (028) 3512-0757 | ctsv@utc2.edu.vn | Phòng E002 (CS1). Cần hỗ trợ giấy tờ gì thì ghé đây nhé!",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "khảo thí",
+      "tài chính",
+      "kế toán",
+      "đóng tiền",
+      "liên hệ khảo thí"
+    ],
+    "response": "Phòng Tài chính chuyên về thu học phí, hóa đơn, công nợ. 📞 Liên hệ: Phòng A103 (CS1). Cần hỗ trợ giấy tờ gì thì ghé đây nhé!",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "trung tâm cntt",
+      "ttcntt",
+      "it support",
+      "liên hệ trung tâm cntt"
+    ],
+    "response": "Trung tâm CNTT chuyên về email sinh viên, wifi, lms, cổng thông tin. 📞 Liên hệ: Tầng 5 nhà E (CS1). Cần hỗ trợ giấy tờ gì thì ghé đây nhé!",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "thư viện",
+      "thu vien",
+      "lib",
+      "liên hệ thư viện"
+    ],
+    "response": "Thư viện chuyên về mượn sách, phòng học nhóm, tài liệu số. 📞 Liên hệ: Nhà C (CS1) và Nhà Thư viện (CS2). Cần hỗ trợ giấy tờ gì thì ghé đây nhé!",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "y tế",
+      "tram y te",
+      "bệnh",
+      "thuốc",
+      "liên hệ y tế"
+    ],
+    "response": "Y tế chuyên về chăm sóc sức khỏe ban đầu, bảo hiểm y tế. 📞 Liên hệ: Cạnh hội trường C (CS1). Cần hỗ trợ giấy tờ gì thì ghé đây nhé!",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "cơ sở 1",
+      "cs1",
+      "võ oanh"
+    ],
+    "response": "Cơ sở 1: Số 2 Võ Oanh, P.25, Bình Thạnh. Trung tâm của trường, gần ngã tư Hàng Xanh. 🏢",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "cơ sở 2",
+      "cs2",
+      "trần não",
+      "thủ đức"
+    ],
+    "response": "Cơ sở 2: 17/12 Trần Não, Thủ Đức (gần cầu Sài Gòn). Khuôn viên rộng, có KTX, sân tập lái. 🌳",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "cơ sở 3",
+      "vũng tàu"
+    ],
+    "response": "Cơ sở 3 tại Vũng Tàu đào tạo chuyên ngành Hàng hải, đi biển. ⚓",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "xe buýt",
+      "xe bus",
+      "tuyến xe"
+    ],
+    "response": "Xe bus đi CS1: 14, 19, 45, 150 (xuống Ngã tư Hàng Xanh đi bộ vào). Đi CS2: 43, 88. Ngoài ra trường có xe đưa đón SV giữa 2 cơ sở miễn phí! 🚌",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "đồng phục",
+      "dong phuc"
+    ],
+    "response": "Thứ 2 & Thứ 5: Áo sơ mi trắng + caravat trường. Các ngày còn lại: Áo thun trường hoặc tự do lịch sự. Thể dục thì mặc đồ thể dục UTH nha! 👕",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "bảo hiểm y tế",
+      "bhyt"
+    ],
+    "response": "BHYT là bắt buộc với sinh viên. Bạn đóng tiền đầu năm học và được cấp thẻ sử dụng tại các bệnh viện đăng ký. 🏥",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "tuần sinh hoạt công dân",
+      "shcd"
+    ],
+    "response": "Tuần SHCD đầu khóa và đầu năm học là bắt buộc đó. Nếu vắng sẽ bị trừ điểm rèn luyện hoặc học lại, nhớ đi đầy đủ nha! 📝",
+    "priority": 4
+  },
+  {
+    "keywords": [
+      "khoẻ không",
+      "khoe khong",
+      "on khong"
+    ],
+    "response": "Mình là Bot mà, lúc nào cũng đầy năng lượng điện! ⚡ Còn bạn thì sao?",
+    "priority": 2
+  },
+  {
+    "keywords": [
+      "ăn cơm chưa",
+      "an com chua"
+    ],
+    "response": "Mình ăn dữ liệu mỗi ngày rồi! Bạn nhớ ăn uống đầy đủ nha 🍚",
+    "priority": 2
+  },
+  {
+    "keywords": [
+      "ngu quá",
+      "dở tệ"
+    ],
+    "response": "Xin lỗi nè 🥺 Mình vẫn đang học hỏi thêm mỗi ngày. Bạn hỏi dễ hơn xíu được không?",
+    "priority": 2
+  },
+  {
+    "keywords": [
+      "thông minh",
+      "gioi qua"
+    ],
+    "response": "Cảm ơn bạn! 🥰 Được khen là mình tít cả mắt (dù không có mắt).",
+    "priority": 2
+  },
+  {
+    "keywords": [
+      "hát đi",
+      "hat tang bai"
+    ],
+    "response": "Mình chỉ biết hát 'bài ca hy vọng' là mong bạn qua môn thôi 🎶",
+    "priority": 2
+  },
+  {
+    "keywords": [
+      "crush",
+      "thất tình",
+      "uon qua"
+    ],
+    "response": "Thất tình thì tập trung học cho người ta tiếc chơi! Hoặc tham gia CLB kiếm người yêu mới nè 💔➡️❤️",
+    "priority": 2
+  },
+  {
+    "keywords": [
+      "thời tiết",
+      "mưa không"
+    ],
+    "response": "Cái này bạn hỏi chị Google giùm mình nha, mình chỉ biết tin tức trong trường thui 🌤️",
+    "priority": 2
+  },
+  {
+    "keywords": [
+      "mấy giờ",
+      "may gio"
+    ],
+    "response": "Giờ học bài đó! ⏰",
+    "priority": 2
+  },
+  {
+    "keywords": [
+      "bao nhiêu tuổi",
+      "sinh năm nào"
+    ],
+    "response": "Mình sinh năm 2024, còn trẻ măng à! 👶",
+    "priority": 2
+  },
+  {
+    "keywords": [
+      "con nhà ai",
+      "ai tạo ra"
+    ],
+    "response": "Mình là con cưng của đội ngũ CNTT UTH đó! 💻",
+    "priority": 2
+  },
+  {
+    "keywords": [
+      "thông tin tuyển sinh",
+      "tìm hiểu tuyển sinh",
+      "hỏi về tuyển sinh"
+    ],
+    "response": "Thông tin về tuyển sinh luôn được cập nhật trên website trường utc2.edu.vn. Bạn cần hỏi chi tiết gì về tuyển sinh không?",
     "priority": 1
   },
   {
     "keywords": [
-      "số lượng giảng viên",
-      "đội ngũ",
-      "nhân sự",
-      "trình độ giảng viên",
-      "giáo sư",
-      "tiến sĩ",
-      "thạc sĩ"
+      "khi nào tuyển sinh",
+      "thời gian tuyển sinh",
+      "lịch tuyển sinh"
     ],
-    "response": "Trường Đại học Giao thông Vận tải (UTH) có tổng cộng 1120 cán bộ và giảng viên. Đội ngũ giảng viên có 827 người, bao gồm 91 Giáo sư và Phó Giáo sư, 202 Tiến sĩ và Tiến sĩ Khoa học, và 489 Thạc sĩ.",
-    "priority": 1
-  },
-
-  {
-    "keywords": [
-      "hợp tác doanh nghiệp",
-      "liên kết",
-      "đối tác",
-      "VINFAST",
-      "Đèo Cả"
-    ],
-    "response": "UTH có nhiều thỏa thuận hợp tác chiến lược với các doanh nghiệp lớn như **VINFAST**, **Tập đoàn Đèo Cả**, và **Tập đoàn C.T Group**. Các thỏa thuận này tập trung vào đào tạo nhân lực, nghiên cứu khoa học, và mở ra nhiều cơ hội thực tập, việc làm cho sinh viên, đặc biệt trong các lĩnh vực như công nghiệp ô tô, đường sắt và logistics.",
-    "priority": 1
-  },
-  {
-    "keywords": ["hồ sơ xét tuyển", "thủ tục đăng ký", "giấy tờ nhập học"],
-    "response": "Hồ sơ xét tuyển vào UTH thường bao gồm: phiếu đăng ký, bản sao CMND/CCCD, bằng tốt nghiệp THPT, học bạ, giấy khám sức khỏe và các ảnh thẻ theo quy định.",
-    "priority": 1
-  },
-
-  {
-    "keywords": [
-      "đời sống sinh viên",
-      "văn hóa",
-      "truyền thống",
-      "không khí học tập"
-    ],
-    "response": "Đời sống sinh viên tại UTH rất sôi động với nhiều hoạt động ngoại khóa đa dạng. Trường thường tổ chức các sự kiện như 'Ngày hội Văn hóa Giao thông', 'Giải bóng đá sinh viên UTH' và các chương trình tình nguyện, khuyến khích sinh viên phát triển toàn diện.",
+    "response": "Thời gian tuyển sinh thường theo kế hoạch năm học. Bạn theo dõi thông báo mới nhất trên cổng thông tin sinh viên nha! 📅",
     "priority": 1
   },
   {
     "keywords": [
-      "trung tâm nghiên cứu",
-      "công nghệ giao thông",
-      "đồ án",
-      "dự án"
+      "liên hệ tuyển sinh",
+      "phòng nào phụ trách tuyển sinh",
+      "đăng ký tuyển sinh ở đâu"
     ],
-    "response": "Trung tâm Nghiên cứu và Ứng dụng Kỹ thuật Giao thông của UTH là nơi sinh viên có thể tham gia các dự án thực tế về công nghệ giao thông thông minh, vật liệu xây dựng mới và các giải pháp bền vững cho ngành giao thông vận tải.",
+    "response": "Về tuyển sinh, bạn vui lòng liên hệ trực tiếp Phòng Đào tạo hoặc Phòng CTSV để được hướng dẫn chính xác nhất nhé! 📞",
     "priority": 1
   },
   {
     "keywords": [
-      "tỷ lệ việc làm",
-      "cơ hội nghề nghiệp",
-      "cựu sinh viên",
-      "thành công"
+      "thông tin học phí",
+      "tìm hiểu học phí",
+      "hỏi về học phí"
     ],
-    "response": "Hơn 90% sinh viên UTH có việc làm trong vòng 1 năm sau khi tốt nghiệp. Nhiều cựu sinh viên giữ các vị trí chủ chốt tại các tổng công ty xây dựng, cảng hàng không và các tập đoàn logistics lớn.",
-    "priority": 1
-  },
-  {
-    "keywords": ["năm học", "học kỳ", "lịch trình học tập"],
-    "response": "Năm học tại UTH bao gồm 2 học kỳ chính (Học kỳ 1: tháng 8 - tháng 12; Học kỳ 2: tháng 1 - tháng 5) và một học kỳ hè tùy chọn. Sinh viên có thể chủ động đăng ký học phần để rút ngắn thời gian học.",
-    "priority": 1
-  },
-  {
-    "keywords": ["học online", "LMS", "cổng thông tin", "tài liệu học tập"],
-    "response": "UTH sử dụng hệ thống **Learning Management System (LMS)** để quản lý học liệu và giao bài tập trực tuyến. Sinh viên có thể truy cập Cổng thông tin sinh viên để xem thời khóa biểu, kết quả học tập và các thông báo quan trọng từ nhà trường.",
-    "priority": 1
-  },
-
-  {
-    "keywords": [
-      "cựu sinh viên nổi bật",
-      "người nổi tiếng",
-      "gương mặt tiêu biểu"
-    ],
-    "response": "UTH tự hào có nhiều cựu sinh viên thành đạt, giữ các chức vụ quan trọng trong ngành GTVT và các lĩnh vực khác, như ông Trần Văn Thi, Giám đốc Ban Quản lý dự án Mỹ Thuận.",
+    "response": "Thông tin về học phí luôn được cập nhật trên website trường utc2.edu.vn. Bạn cần hỏi chi tiết gì về học phí không?",
     "priority": 1
   },
   {
     "keywords": [
-      "chất lượng cao",
-      "chương trình tiên tiến",
-      "đào tạo đặc biệt"
+      "khi nào học phí",
+      "thời gian học phí",
+      "lịch học phí"
     ],
-    "response": "UTH có các lớp chất lượng cao cho một số ngành 'hot' như Logistics, Kỹ thuật ô tô. Chương trình học được tăng cường tiếng Anh chuyên ngành, kỹ năng mềm và có cơ hội thực tập sớm tại các doanh nghiệp lớn.",
+    "response": "Thời gian học phí thường theo kế hoạch năm học. Bạn theo dõi thông báo mới nhất trên cổng thông tin sinh viên nha! 📅",
     "priority": 1
   },
   {
     "keywords": [
-      "chuẩn đầu ra ngoại ngữ",
-      "yêu cầu tiếng anh",
-      "TOEIC",
-      "IELTS"
+      "liên hệ học phí",
+      "phòng nào phụ trách học phí",
+      "đăng ký học phí ở đâu"
     ],
-    "response": "Sinh viên UTH cần đạt chuẩn đầu ra tiếng Anh tương đương TOEIC 450-550 (tùy ngành) để đủ điều kiện tốt nghiệp. Trường có các khóa học và trung tâm luyện thi để hỗ trợ sinh viên.",
-    "priority": 1
-  },
-  {
-    "keywords": ["văn bằng 2", "học thêm bằng", "bằng kép"],
-    "response": "UTH có chương trình đào tạo văn bằng 2 cho các cá nhân đã có ít nhất một bằng đại học, mở ra cơ hội nghề nghiệp mới trong lĩnh vực Giao thông vận tải và Logistics.",
+    "response": "Về học phí, bạn vui lòng liên hệ trực tiếp Phòng Đào tạo hoặc Phòng CTSV để được hướng dẫn chính xác nhất nhé! 📞",
     "priority": 1
   },
   {
     "keywords": [
-      "định hướng phát triển",
-      "tầm nhìn",
-      "sứ mệnh",
-      "mục tiêu chiến lược"
+      "thông tin điểm chuẩn",
+      "tìm hiểu điểm chuẩn",
+      "hỏi về điểm chuẩn"
     ],
-    "response": "Sứ mệnh của UTH là đào tạo nguồn nhân lực chất lượng cao, nghiên cứu khoa học và chuyển giao công nghệ phục vụ sự phát triển bền vững của ngành GTVT Việt Nam và hội nhập quốc tế.",
-    "priority": 1
-  },
-  {
-    "keywords": ["kiểm định", "chất lượng giáo dục", "xếp hạng"],
-    "response": "Nhiều chương trình đào tạo của UTH đã được kiểm định và công nhận chất lượng bởi các tổ chức uy tín trong nước và khu vực, khẳng định cam kết về chất lượng đào tạo.",
-    "priority": 1
-  },
-  {
-    "keywords": ["đoàn thanh niên", "hội sinh viên", "hoạt động đoàn thể"],
-    "response": "Đoàn Thanh niên - Hội Sinh viên UTH rất năng động, thường xuyên tổ chức các hoạt động ý nghĩa như 'Tiếp sức mùa thi', hiến máu nhân đạo, các hội thảo kỹ năng và diễn đàn khởi nghiệp.",
-    "priority": 1
-  },
-  {
-    "keywords": ["đồng phục", "quy định trang phục"],
-    "response": "Sinh viên UTH mặc đồng phục áo sơ mi trắng có logo trường và quần sẫm màu vào các ngày trong tuần. Đồng phục thể dục được mặc trong các giờ học giáo dục thể chất.",
-    "priority": 1
-  },
-  {
-    "keywords": ["tuyển thẳng", "ưu tiên xét tuyển", "học sinh giỏi quốc gia"],
-    "response": "UTH có chính sách ưu tiên xét tuyển thẳng dành cho các thí sinh đạt giải trong các kỳ thi học sinh giỏi quốc gia, quốc tế (các môn Toán, Lý, Hóa, Tin học) và các cuộc thi Khoa học Kỹ thuật cấp quốc gia.",
-    "priority": 1
-  },
-  {
-    "keywords": ["giáo dục quốc phòng", "học quân sự", "an ninh quốc phòng"],
-    "response": "Chương trình Giáo dục Quốc phòng - An ninh của UTH thường được tổ chức tập trung tại các trung tâm giáo dục quốc phòng liên kết. Sinh viên sẽ có một học kỳ sống và rèn luyện trong môi trường quân đội.",
+    "response": "Thông tin về điểm chuẩn luôn được cập nhật trên website trường utc2.edu.vn. Bạn cần hỏi chi tiết gì về điểm chuẩn không?",
     "priority": 1
   },
   {
     "keywords": [
-      "đổi mới sáng tạo",
-      "vườn ươm doanh nghiệp",
-      "chuyển giao công nghệ"
+      "khi nào điểm chuẩn",
+      "thời gian điểm chuẩn",
+      "lịch điểm chuẩn"
     ],
-    "response": "UTH thúc đẩy mạnh mẽ tinh thần đổi mới sáng tạo và khởi nghiệp thông qua các vườn ươm công nghệ, hỗ trợ các dự án sinh viên về giao thông thông minh, logistics và vật liệu mới có tiềm năng thương mại hóa.",
-    "priority": 1
-  },
-  {
-    "keywords": ["kênh truyền thông", "báo sinh viên", "bản tin UTH"],
-    "response": "Trường có các kênh truyền thông nội bộ và sinh viên như Bản tin UTH, trang Fanpage của Đoàn Thanh niên - Hội Sinh viên, là nơi cập nhật nhanh chóng các thông báo, sự kiện và phản ánh đời sống học đường.",
-    "priority": 1
-  },
-  {
-    "keywords": ["lễ tốt nghiệp", "trao bằng", "lễ phục tốt nghiệp"],
-    "response": "Lễ trao bằng tốt nghiệp là một sự kiện trọng đại và được tổ chức trang trọng tại UTH, là dịp để vinh danh nỗ lực của các tân cử nhân, kỹ sư trước sự chứng kiến của gia đình và thầy cô.",
-    "priority": 1
-  },
-  {
-    "keywords": ["tư vấn học đường", "cố vấn học tập", "hỗ trợ sinh viên"],
-    "response": "Mỗi lớp sinh viên tại UTH đều có một giảng viên làm cố vấn học tập, có nhiệm vụ theo sát, hỗ trợ và định hướng cho sinh viên về chương trình học, phương pháp học tập và các vấn đề trong cuộc sống.",
+    "response": "Thời gian điểm chuẩn thường theo kế hoạch năm học. Bạn theo dõi thông báo mới nhất trên cổng thông tin sinh viên nha! 📅",
     "priority": 1
   },
   {
     "keywords": [
-      "phương thức thanh toán học phí",
-      "đóng tiền học",
-      "nộp học phí online"
+      "liên hệ điểm chuẩn",
+      "phòng nào phụ trách điểm chuẩn",
+      "đăng ký điểm chuẩn ở đâu"
     ],
-    "response": "Sinh viên có thể nộp học phí qua nhiều hình thức linh hoạt như chuyển khoản ngân hàng, qua các ứng dụng ví điện tử liên kết hoặc trực tiếp tại phòng Kế hoạch - Tài chính của trường.",
+    "response": "Về điểm chuẩn, bạn vui lòng liên hệ trực tiếp Phòng Đào tạo hoặc Phòng CTSV để được hướng dẫn chính xác nhất nhé! 📞",
     "priority": 1
   },
   {
     "keywords": [
-      "ngày hội tân sinh viên",
-      "chào tân sinh viên",
-      "tuần sinh hoạt công dân"
+      "thông tin ngành học",
+      "tìm hiểu ngành học",
+      "hỏi về ngành học"
     ],
-    "response": "Đầu mỗi năm học, UTH tổ chức 'Ngày hội chào tân sinh viên' và 'Tuần sinh hoạt công dân' với nhiều hoạt động sôi nổi giúp các bạn khóa mới nhanh chóng hòa nhập, tìm hiểu về trường và gặp gỡ các câu lạc bộ.",
+    "response": "Thông tin về ngành học luôn được cập nhật trên website trường utc2.edu.vn. Bạn cần hỏi chi tiết gì về ngành học không?",
     "priority": 1
   },
   {
     "keywords": [
-      "mạng lưới cựu sinh viên",
-      "ban liên lạc cựu sinh viên",
-      "kết nối cựu sinh viên"
+      "khi nào ngành học",
+      "thời gian ngành học",
+      "lịch ngành học"
     ],
-    "response": "UTH có Ban Liên lạc Cựu sinh viên hoạt động rất tích cực, là cầu nối vững chắc giữa các thế hệ sinh viên. Mạng lưới này thường xuyên tổ chức các buổi họp mặt, chia sẻ kinh nghiệm và tạo ra nhiều cơ hội việc làm, hợp tác.",
-    "priority": 1
-  },
-  {
-    "keywords": ["an ninh khuôn viên", "bảo vệ", "camera an ninh", "an toàn"],
-    "response": "An ninh tại các cơ sở của UTH được đảm bảo 24/7 bởi đội ngũ bảo vệ chuyên nghiệp, hệ thống camera giám sát được lắp đặt tại các khu vực trọng yếu, và quy định về thẻ sinh viên khi ra vào, tạo môi trường học tập an toàn.",
+    "response": "Thời gian ngành học thường theo kế hoạch năm học. Bạn theo dõi thông báo mới nhất trên cổng thông tin sinh viên nha! 📅",
     "priority": 1
   },
   {
     "keywords": [
-      "tư vấn dự án quốc gia",
-      "cao tốc Bắc Nam",
-      "sân bay Long Thành",
-      "metro"
+      "liên hệ ngành học",
+      "phòng nào phụ trách ngành học",
+      "đăng ký ngành học ở đâu"
     ],
-    "response": "Đội ngũ chuyên gia và giảng viên của UTH thường xuyên tham gia vào các hội đồng tư vấn, phản biện và nghiên cứu cho các dự án hạ tầng giao thông trọng điểm quốc gia như cao tốc Bắc - Nam, sân bay Long Thành, và tuyến Metro TP.HCM.",
+    "response": "Về ngành học, bạn vui lòng liên hệ trực tiếp Phòng Đào tạo hoặc Phòng CTSV để được hướng dẫn chính xác nhất nhé! 📞",
     "priority": 1
   },
   {
     "keywords": [
-      "hỗ trợ IT",
-      "phần mềm bản quyền",
-      "email sinh viên",
-      "Microsoft Office 365"
+      "thông tin ký túc xá",
+      "tìm hiểu ký túc xá",
+      "hỏi về ký túc xá"
     ],
-    "response": "Sinh viên UTH được cấp tài khoản email chính thức (@student.utc2.edu.vn) và được sử dụng miễn phí bộ phần mềm Microsoft Office 365. Trường cũng hỗ trợ cài đặt các phần mềm kỹ thuật chuyên ngành có bản quyền.",
-    "priority": 1
-  },
-  {
-    "keywords": ["nữ sinh kỹ thuật", "hỗ trợ nữ sinh", "STEM"],
-    "response": "UTH luôn khuyến khích và tạo điều kiện cho các nữ sinh theo học khối ngành kỹ thuật thông qua các buổi workshop, chương trình giao lưu với các nữ kỹ sư thành đạt và các chính sách hỗ trợ nhằm thúc đẩy bình đẳng giới trong khoa học công nghệ.",
-    "priority": 1
-  },
-  {
-    "keywords": ["gửi xe", "nhà xe sinh viên", "bãi giữ xe"],
-    "response": "Cả hai cơ sở của UTH đều có khu vực nhà xe rộng rãi, có mái che dành cho sinh viên và cán bộ giảng viên. Việc quản lý xe ra vào bằng thẻ từ giúp đảm bảo an toàn, trật tự.",
-    "priority": 1
-  },
-  {
-    "keywords": ["tuần lễ khoa", "ngày truyền thống khoa"],
-    "response": "Hàng năm, các khoa chuyên ngành thường tổ chức 'Tuần lễ Khoa' hoặc 'Ngày hội truyền thống Khoa' với chuỗi hoạt động học thuật, thể thao, văn nghệ, và các cuộc thi chuyên môn, tạo nên bản sắc riêng cho từng ngành học.",
-    "priority": 1
-  },
-  {
-    "keywords": ["phúc lợi sinh viên", "bảo hiểm y tế", "chế độ chính sách"],
-    "response": "Ngoài các chính sách của nhà nước, UTH luôn quan tâm đến phúc lợi sinh viên bằng việc đảm bảo 100% sinh viên có bảo hiểm y tế, triển khai các gói bảo hiểm tai nạn tự nguyện và quy trình xử lý chế độ chính sách nhanh chóng, thuận tiện.",
+    "response": "Thông tin về ký túc xá luôn được cập nhật trên website trường utc2.edu.vn. Bạn cần hỏi chi tiết gì về ký túc xá không?",
     "priority": 1
   },
   {
     "keywords": [
-      "thư viện điện tử",
-      "cơ sở dữ liệu online",
-      "tài liệu số",
-      "IEEE Xplore",
-      "SpringerLink"
+      "khi nào ký túc xá",
+      "thời gian ký túc xá",
+      "lịch ký túc xá"
     ],
-    "response": "Thư viện UTH cung cấp quyền truy cập vào các cơ sở dữ liệu khoa học trực tuyến hàng đầu thế giới như IEEE Xplore, SpringerLink, ScienceDirect, giúp sinh viên và giảng viên tiếp cận nguồn tài liệu học thuật và nghiên cứu phong phú, cập nhật.",
+    "response": "Thời gian ký túc xá thường theo kế hoạch năm học. Bạn theo dõi thông báo mới nhất trên cổng thông tin sinh viên nha! 📅",
     "priority": 1
   },
   {
     "keywords": [
-      "quy tắc liêm chính học thuật",
-      "chống gian lận",
-      "đạo văn",
-      "quy chế thi cử"
+      "liên hệ ký túc xá",
+      "phòng nào phụ trách ký túc xá",
+      "đăng ký ký túc xá ở đâu"
     ],
-    "response": "UTH đề cao tính liêm chính trong học thuật. Nhà trường có những quy định rất chặt chẽ về việc chống gian lận trong thi cử và xử lý nghiêm các hành vi đạo văn trong luận văn, đồ án để đảm bảo chất lượng đào tạo và sự công bằng.",
+    "response": "Về ký túc xá, bạn vui lòng liên hệ trực tiếp Phòng Đào tạo hoặc Phòng CTSV để được hướng dẫn chính xác nhất nhé! 📞",
     "priority": 1
   },
   {
     "keywords": [
-      "sinh viên quốc tế",
-      "du học sinh",
-      "hỗ trợ sinh viên nước ngoài"
+      "thông tin thư viện",
+      "tìm hiểu thư viện",
+      "hỏi về thư viện"
     ],
-    "response": "UTH có Phòng Quan hệ Đối ngoại chuyên trách hỗ trợ các sinh viên quốc tế (Lào, Campuchia, Hàn Quốc...) trong các vấn đề về thủ tục nhập học, visa, ký túc xá và tổ chức các hoạt động giao lưu văn hóa để các bạn nhanh chóng hòa nhập.",
+    "response": "Thông tin về thư viện luôn được cập nhật trên website trường utc2.edu.vn. Bạn cần hỏi chi tiết gì về thư viện không?",
     "priority": 1
   },
   {
     "keywords": [
-      "phòng truyền thống",
-      "nhà truyền thống",
-      "lịch sử trường",
-      "kỷ vật"
+      "khi nào thư viện",
+      "thời gian thư viện",
+      "lịch thư viện"
     ],
-    "response": "Nhà trường có Phòng Truyền thống, là nơi lưu giữ những hình ảnh, kỷ vật, tài liệu quý giá về các giai đoạn hình thành và phát triển của UTH, giúp các thế hệ sinh viên hiểu rõ hơn về lịch sử và tự hào về ngôi trường mình theo học.",
-    "priority": 1
-  },
-  {
-    "keywords": ["tạp chí khoa học công nghệ", "công bố bài báo", "ISSN"],
-    "response": "UTH xuất bản Tạp chí Khoa học Công nghệ Giao thông Vận tải, một tạp chí uy tín có mã số chuẩn quốc tế (ISSN). Đây là diễn đàn để các nhà khoa học, giảng viên và sinh viên sau đại học công bố các công trình nghiên cứu mới nhất của mình.",
+    "response": "Thời gian thư viện thường theo kế hoạch năm học. Bạn theo dõi thông báo mới nhất trên cổng thông tin sinh viên nha! 📅",
     "priority": 1
   },
   {
     "keywords": [
-      "khảo sát việc làm",
-      "phản hồi từ doanh nghiệp",
-      "cải tiến chương trình"
+      "liên hệ thư viện",
+      "phòng nào phụ trách thư viện",
+      "đăng ký thư viện ở đâu"
     ],
-    "response": "Hàng năm, UTH đều tiến hành khảo sát tình hình việc làm của sinh viên sau tốt nghiệp và thu thập phản hồi từ các doanh nghiệp tuyển dụng. Kết quả được sử dụng để phân tích, đánh giá và cải tiến chương trình đào tạo cho phù hợp với thực tiễn.",
-    "priority": 1
-  },
-  {
-    "keywords": ["đánh giá rèn luyện", "điểm rèn luyện", "tiêu chí đánh giá"],
-    "response": "Bên cạnh điểm học tập, sinh viên UTH được đánh giá kết quả rèn luyện mỗi học kỳ dựa trên các tiêu chí về ý thức học tập, chấp hành nội quy, tham gia hoạt động ngoại khóa. Điểm rèn luyện là một tiêu chí quan trọng để xét học bổng và tốt nghiệp.",
-    "priority": 1
-  },
-  {
-    "keywords": ["ứng dụng di động", "app sinh viên", "UTH App"],
-    "response": "Nhà trường đang phát triển ứng dụng di động (app) dành cho sinh viên, cho phép xem lịch học, lịch thi, kết quả học tập và nhận thông báo từ nhà trường một cách nhanh chóng, tiện lợi ngay trên điện thoại thông minh.",
+    "response": "Về thư viện, bạn vui lòng liên hệ trực tiếp Phòng Đào tạo hoặc Phòng CTSV để được hướng dẫn chính xác nhất nhé! 📞",
     "priority": 1
   },
   {
     "keywords": [
-      "thư viện điện tử",
-      "cơ sở dữ liệu online",
-      "tài liệu số",
-      "IEEE Xplore",
-      "SpringerLink"
+      "thông tin bảo hiểm",
+      "tìm hiểu bảo hiểm",
+      "hỏi về bảo hiểm"
     ],
-    "response": "Thư viện UTH cung cấp quyền truy cập vào các cơ sở dữ liệu khoa học trực tuyến hàng đầu thế giới như IEEE Xplore, SpringerLink, ScienceDirect, giúp sinh viên và giảng viên tiếp cận nguồn tài liệu học thuật và nghiên cứu phong phú, cập nhật.",
+    "response": "Thông tin về bảo hiểm luôn được cập nhật trên website trường utc2.edu.vn. Bạn cần hỏi chi tiết gì về bảo hiểm không?",
     "priority": 1
   },
   {
     "keywords": [
-      "quy tắc liêm chính học thuật",
-      "chống gian lận",
-      "đạo văn",
-      "quy chế thi cử"
+      "khi nào bảo hiểm",
+      "thời gian bảo hiểm",
+      "lịch bảo hiểm"
     ],
-    "response": "UTH đề cao tính liêm chính trong học thuật. Nhà trường có những quy định rất chặt chẽ về việc chống gian lận trong thi cử và xử lý nghiêm các hành vi đạo văn trong luận văn, đồ án để đảm bảo chất lượng đào tạo và sự công bằng.",
+    "response": "Thời gian bảo hiểm thường theo kế hoạch năm học. Bạn theo dõi thông báo mới nhất trên cổng thông tin sinh viên nha! 📅",
     "priority": 1
   },
   {
     "keywords": [
-      "sinh viên quốc tế",
-      "du học sinh",
-      "hỗ trợ sinh viên nước ngoài"
+      "liên hệ bảo hiểm",
+      "phòng nào phụ trách bảo hiểm",
+      "đăng ký bảo hiểm ở đâu"
     ],
-    "response": "UTH có Phòng Quan hệ Đối ngoại chuyên trách hỗ trợ các sinh viên quốc tế (Lào, Campuchia, Hàn Quốc...) trong các vấn đề về thủ tục nhập học, visa, ký túc xá và tổ chức các hoạt động giao lưu văn hóa để các bạn nhanh chóng hòa nhập.",
+    "response": "Về bảo hiểm, bạn vui lòng liên hệ trực tiếp Phòng Đào tạo hoặc Phòng CTSV để được hướng dẫn chính xác nhất nhé! 📞",
     "priority": 1
   },
   {
     "keywords": [
-      "phòng truyền thống",
-      "nhà truyền thống",
-      "lịch sử trường",
-      "kỷ vật"
+      "thông tin học bổng",
+      "tìm hiểu học bổng",
+      "hỏi về học bổng"
     ],
-    "response": "Nhà trường có Phòng Truyền thống, là nơi lưu giữ những hình ảnh, kỷ vật, tài liệu quý giá về các giai đoạn hình thành và phát triển của UTH, giúp các thế hệ sinh viên hiểu rõ hơn về lịch sử và tự hào về ngôi trường mình theo học.",
-    "priority": 1
-  },
-  {
-    "keywords": ["tạp chí khoa học công nghệ", "công bố bài báo", "ISSN"],
-    "response": "UTH xuất bản Tạp chí Khoa học Công nghệ Giao thông Vận tải, một tạp chí uy tín có mã số chuẩn quốc tế (ISSN). Đây là diễn đàn để các nhà khoa học, giảng viên và sinh viên sau đại học công bố các công trình nghiên cứu mới nhất của mình.",
+    "response": "Thông tin về học bổng luôn được cập nhật trên website trường utc2.edu.vn. Bạn cần hỏi chi tiết gì về học bổng không?",
     "priority": 1
   },
   {
     "keywords": [
-      "khảo sát việc làm",
-      "phản hồi từ doanh nghiệp",
-      "cải tiến chương trình"
+      "khi nào học bổng",
+      "thời gian học bổng",
+      "lịch học bổng"
     ],
-    "response": "Hàng năm, UTH đều tiến hành khảo sát tình hình việc làm của sinh viên sau tốt nghiệp và thu thập phản hồi từ các doanh nghiệp tuyển dụng. Kết quả được sử dụng để phân tích, đánh giá và cải tiến chương trình đào tạo cho phù hợp với thực tiễn.",
-    "priority": 1
-  },
-  {
-    "keywords": ["đánh giá rèn luyện", "điểm rèn luyện", "tiêu chí đánh giá"],
-    "response": "Bên cạnh điểm học tập, sinh viên UTH được đánh giá kết quả rèn luyện mỗi học kỳ dựa trên các tiêu chí về ý thức học tập, chấp hành nội quy, tham gia hoạt động ngoại khóa. Điểm rèn luyện là một tiêu chí quan trọng để xét học bổng và tốt nghiệp.",
-    "priority": 1
-  },
-  {
-    "keywords": ["ứng dụng di động", "app sinh viên", "UTH App"],
-    "response": "Nhà trường đang phát triển ứng dụng di động (app) dành cho sinh viên, cho phép xem lịch học, lịch thi, kết quả học tập và nhận thông báo từ nhà trường một cách nhanh chóng, tiện lợi ngay trên điện thoại thông minh.",
+    "response": "Thời gian học bổng thường theo kế hoạch năm học. Bạn theo dõi thông báo mới nhất trên cổng thông tin sinh viên nha! 📅",
     "priority": 1
   },
   {
     "keywords": [
-      "mạng lưới cựu sinh viên",
-      "ban liên lạc cựu sinh viên",
-      "kết nối cựu sinh viên"
+      "liên hệ học bổng",
+      "phòng nào phụ trách học bổng",
+      "đăng ký học bổng ở đâu"
     ],
-    "response": "Tại UTH, mạng lưới cựu sinh viên không chỉ là nơi kết nối mà còn là một nguồn lực quý giá. Ban Liên lạc Cựu sinh viên hoạt động mạnh mẽ, thường xuyên tổ chức các chương trình họp mặt truyền thống, hội thảo nghề nghiệp, và tư vấn định hướng cho sinh viên hiện tại. Nhiều cựu sinh viên đã thành đạt, đang giữ các vị trí quan trọng trong các cơ quan nhà nước, doanh nghiệp lớn trong và ngoài ngành giao thông vận tải. Thông qua mạng lưới này, sinh viên có thêm cơ hội việc làm, được kết nối với thế giới thực tế, và nuôi dưỡng tinh thần 'truyền lửa' giữa các thế hệ.",
-    "priority": 1
-  },
-  {
-    "keywords": ["an ninh khuôn viên", "bảo vệ", "camera an ninh", "an toàn"],
-    "response": "UTH luôn xác định môi trường học tập an toàn là nền tảng cho sự phát triển học thuật và cá nhân. Khuôn viên các cơ sở đều được quản lý nghiêm ngặt với đội ngũ bảo vệ trực 24/7, hệ thống camera giám sát toàn diện, và yêu cầu sinh viên phải sử dụng thẻ khi ra vào trường. Ngoài ra, nhà trường còn tổ chức các buổi truyền thông về phòng chống trộm cắp, bạo lực học đường, và kỹ năng ứng phó khẩn cấp, nhằm xây dựng một cộng đồng học đường văn minh, an toàn và hiện đại.",
+    "response": "Về học bổng, bạn vui lòng liên hệ trực tiếp Phòng Đào tạo hoặc Phòng CTSV để được hướng dẫn chính xác nhất nhé! 📞",
     "priority": 1
   },
   {
     "keywords": [
-      "tư vấn dự án quốc gia",
-      "cao tốc Bắc Nam",
-      "sân bay Long Thành",
-      "metro"
+      "thông tin thực tập",
+      "tìm hiểu thực tập",
+      "hỏi về thực tập"
     ],
-    "response": "Đội ngũ giảng viên và chuyên gia của UTH không chỉ là người dạy mà còn là người kiến tạo nên các công trình giao thông trọng điểm quốc gia. Trường tự hào có nhiều thầy cô đang tham gia tư vấn, phản biện khoa học và thiết kế kỹ thuật cho các dự án như cao tốc Bắc – Nam, sân bay Long Thành, hay tuyến Metro TP.HCM. Việc giảng dạy đi đôi với thực tiễn giúp sinh viên được tiếp cận các nghiên cứu đỉnh cao, bài giảng luôn cập nhật công nghệ mới, và mở ra cơ hội tham gia dự án từ khi còn đi học.",
+    "response": "Thông tin về thực tập luôn được cập nhật trên website trường utc2.edu.vn. Bạn cần hỏi chi tiết gì về thực tập không?",
     "priority": 1
   },
   {
     "keywords": [
-      "hỗ trợ IT",
-      "phần mềm bản quyền",
-      "email sinh viên",
-      "Microsoft Office 365"
+      "khi nào thực tập",
+      "thời gian thực tập",
+      "lịch thực tập"
     ],
-    "response": "Sinh viên UTH được cấp miễn phí tài khoản email sinh viên chính thức với tên miền @student.utc2.edu.vn, đồng thời được quyền truy cập trọn bộ phần mềm Microsoft Office 365 bản quyền bao gồm Word, Excel, PowerPoint, Outlook,... Nhà trường cũng hỗ trợ cài đặt phần mềm kỹ thuật chuyên ngành như AutoCAD, Matlab, Proteus, hoặc phần mềm mô phỏng mạng, cơ điện tử, logistics,… tạo điều kiện tối đa cho sinh viên học tập và thực hành đúng chuẩn doanh nghiệp.",
+    "response": "Thời gian thực tập thường theo kế hoạch năm học. Bạn theo dõi thông báo mới nhất trên cổng thông tin sinh viên nha! 📅",
     "priority": 1
   },
   {
-    "keywords": ["nữ sinh kỹ thuật", "hỗ trợ nữ sinh", "STEM"],
-    "response": "Dù khối ngành kỹ thuật vốn được xem là 'lãnh địa nam giới', UTH lại là nơi tôn vinh và khuyến khích nữ sinh mạnh dạn theo đuổi đam mê STEM. Các chương trình như 'Nữ sinh ngành kỹ thuật – Bản lĩnh và Tài năng', các buổi talkshow truyền cảm hứng cùng các kỹ sư nữ thành đạt, hay các học bổng riêng cho nữ sinh chuyên ngành công nghệ đã được triển khai đều đặn. Trường tin rằng, phát triển khoa học công nghệ phải gắn liền với bình đẳng giới và sự tham gia đầy đủ của tất cả tài năng.",
+    "keywords": [
+      "liên hệ thực tập",
+      "phòng nào phụ trách thực tập",
+      "đăng ký thực tập ở đâu"
+    ],
+    "response": "Về thực tập, bạn vui lòng liên hệ trực tiếp Phòng Đào tạo hoặc Phòng CTSV để được hướng dẫn chính xác nhất nhé! 📞",
     "priority": 1
   },
   {
-    "keywords": ["gửi xe", "nhà xe sinh viên", "bãi giữ xe"],
-    "response": "Cơ sở vật chất tại UTH luôn được đầu tư hiện đại và hợp lý. Cả hai cơ sở chính đều có khu vực nhà xe rộng rãi, thoáng mát, có mái che và phân khu riêng cho xe đạp, xe máy và xe ô tô. Hệ thống kiểm soát ra vào bằng thẻ từ giúp đảm bảo an ninh. Sinh viên được quyền gửi xe trong khung giờ học mà không tốn phí hoặc được hỗ trợ chi phí gửi xe tháng rất thấp, thể hiện sự quan tâm thực tế và gần gũi của nhà trường đối với đời sống hằng ngày của sinh viên.",
+    "keywords": [
+      "thông tin việc làm",
+      "tìm hiểu việc làm",
+      "hỏi về việc làm"
+    ],
+    "response": "Thông tin về việc làm luôn được cập nhật trên website trường utc2.edu.vn. Bạn cần hỏi chi tiết gì về việc làm không?",
     "priority": 1
   },
   {
-    "keywords": ["tuần lễ khoa", "ngày truyền thống khoa"],
-    "response": "Tuần lễ Khoa và Ngày truyền thống là những sự kiện lớn trong năm của từng khoa chuyên ngành tại UTH. Đây không chỉ là dịp để tôn vinh thành tựu học thuật, mà còn là sân chơi để sinh viên thể hiện tài năng qua các cuộc thi như thiết kế mô hình, sáng tạo công nghệ, thi đấu thể thao, biểu diễn văn nghệ. Sự kiện thường có sự góp mặt của cựu sinh viên, doanh nghiệp và giảng viên đầu ngành, giúp gắn kết nhà trường – doanh nghiệp – người học theo mô hình '3 bên cùng phát triển'.",
+    "keywords": [
+      "khi nào việc làm",
+      "thời gian việc làm",
+      "lịch việc làm"
+    ],
+    "response": "Thời gian việc làm thường theo kế hoạch năm học. Bạn theo dõi thông báo mới nhất trên cổng thông tin sinh viên nha! 📅",
     "priority": 1
   },
   {
-    "keywords": ["phúc lợi sinh viên", "bảo hiểm y tế", "chế độ chính sách"],
-    "response": "UTH đặc biệt chú trọng đến hệ thống phúc lợi sinh viên. Trường đảm bảo 100% sinh viên có bảo hiểm y tế đúng quy định, đồng thời triển khai các gói bảo hiểm tai nạn tự nguyện với chi phí thấp nhưng quyền lợi cao. Những sinh viên có hoàn cảnh khó khăn còn được tư vấn, hướng dẫn nhận các chính sách hỗ trợ từ nhà nước như miễn giảm học phí, học bổng khuyến khích học tập, hoặc hỗ trợ khẩn cấp. Mọi thủ tục đều được số hóa để đảm bảo minh bạch, nhanh chóng, công bằng.",
+    "keywords": [
+      "liên hệ việc làm",
+      "phòng nào phụ trách việc làm",
+      "đăng ký việc làm ở đâu"
+    ],
+    "response": "Về việc làm, bạn vui lòng liên hệ trực tiếp Phòng Đào tạo hoặc Phòng CTSV để được hướng dẫn chính xác nhất nhé! 📞",
     "priority": 1
+  },
+  {
+    "keywords": [
+      "thông tin liên thông",
+      "tìm hiểu liên thông",
+      "hỏi về liên thông"
+    ],
+    "response": "Thông tin về liên thông luôn được cập nhật trên website trường utc2.edu.vn. Bạn cần hỏi chi tiết gì về liên thông không?",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "khi nào liên thông",
+      "thời gian liên thông",
+      "lịch liên thông"
+    ],
+    "response": "Thời gian liên thông thường theo kế hoạch năm học. Bạn theo dõi thông báo mới nhất trên cổng thông tin sinh viên nha! 📅",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "liên hệ liên thông",
+      "phòng nào phụ trách liên thông",
+      "đăng ký liên thông ở đâu"
+    ],
+    "response": "Về liên thông, bạn vui lòng liên hệ trực tiếp Phòng Đào tạo hoặc Phòng CTSV để được hướng dẫn chính xác nhất nhé! 📞",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "thông tin văn bằng 2",
+      "tìm hiểu văn bằng 2",
+      "hỏi về văn bằng 2"
+    ],
+    "response": "Thông tin về văn bằng 2 luôn được cập nhật trên website trường utc2.edu.vn. Bạn cần hỏi chi tiết gì về văn bằng 2 không?",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "khi nào văn bằng 2",
+      "thời gian văn bằng 2",
+      "lịch văn bằng 2"
+    ],
+    "response": "Thời gian văn bằng 2 thường theo kế hoạch năm học. Bạn theo dõi thông báo mới nhất trên cổng thông tin sinh viên nha! 📅",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "liên hệ văn bằng 2",
+      "phòng nào phụ trách văn bằng 2",
+      "đăng ký văn bằng 2 ở đâu"
+    ],
+    "response": "Về văn bằng 2, bạn vui lòng liên hệ trực tiếp Phòng Đào tạo hoặc Phòng CTSV để được hướng dẫn chính xác nhất nhé! 📞",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "thông tin thạc sĩ",
+      "tìm hiểu thạc sĩ",
+      "hỏi về thạc sĩ"
+    ],
+    "response": "Thông tin về thạc sĩ luôn được cập nhật trên website trường utc2.edu.vn. Bạn cần hỏi chi tiết gì về thạc sĩ không?",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "khi nào thạc sĩ",
+      "thời gian thạc sĩ",
+      "lịch thạc sĩ"
+    ],
+    "response": "Thời gian thạc sĩ thường theo kế hoạch năm học. Bạn theo dõi thông báo mới nhất trên cổng thông tin sinh viên nha! 📅",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "liên hệ thạc sĩ",
+      "phòng nào phụ trách thạc sĩ",
+      "đăng ký thạc sĩ ở đâu"
+    ],
+    "response": "Về thạc sĩ, bạn vui lòng liên hệ trực tiếp Phòng Đào tạo hoặc Phòng CTSV để được hướng dẫn chính xác nhất nhé! 📞",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "thông tin tiến sĩ",
+      "tìm hiểu tiến sĩ",
+      "hỏi về tiến sĩ"
+    ],
+    "response": "Thông tin về tiến sĩ luôn được cập nhật trên website trường utc2.edu.vn. Bạn cần hỏi chi tiết gì về tiến sĩ không?",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "khi nào tiến sĩ",
+      "thời gian tiến sĩ",
+      "lịch tiến sĩ"
+    ],
+    "response": "Thời gian tiến sĩ thường theo kế hoạch năm học. Bạn theo dõi thông báo mới nhất trên cổng thông tin sinh viên nha! 📅",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "liên hệ tiến sĩ",
+      "phòng nào phụ trách tiến sĩ",
+      "đăng ký tiến sĩ ở đâu"
+    ],
+    "response": "Về tiến sĩ, bạn vui lòng liên hệ trực tiếp Phòng Đào tạo hoặc Phòng CTSV để được hướng dẫn chính xác nhất nhé! 📞",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "thông tin đăng ký môn",
+      "tìm hiểu đăng ký môn",
+      "hỏi về đăng ký môn"
+    ],
+    "response": "Thông tin về đăng ký môn luôn được cập nhật trên website trường utc2.edu.vn. Bạn cần hỏi chi tiết gì về đăng ký môn không?",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "khi nào đăng ký môn",
+      "thời gian đăng ký môn",
+      "lịch đăng ký môn"
+    ],
+    "response": "Thời gian đăng ký môn thường theo kế hoạch năm học. Bạn theo dõi thông báo mới nhất trên cổng thông tin sinh viên nha! 📅",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "liên hệ đăng ký môn",
+      "phòng nào phụ trách đăng ký môn",
+      "đăng ký đăng ký môn ở đâu"
+    ],
+    "response": "Về đăng ký môn, bạn vui lòng liên hệ trực tiếp Phòng Đào tạo hoặc Phòng CTSV để được hướng dẫn chính xác nhất nhé! 📞",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "thông tin xem điểm",
+      "tìm hiểu xem điểm",
+      "hỏi về xem điểm"
+    ],
+    "response": "Thông tin về xem điểm luôn được cập nhật trên website trường utc2.edu.vn. Bạn cần hỏi chi tiết gì về xem điểm không?",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "khi nào xem điểm",
+      "thời gian xem điểm",
+      "lịch xem điểm"
+    ],
+    "response": "Thời gian xem điểm thường theo kế hoạch năm học. Bạn theo dõi thông báo mới nhất trên cổng thông tin sinh viên nha! 📅",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "liên hệ xem điểm",
+      "phòng nào phụ trách xem điểm",
+      "đăng ký xem điểm ở đâu"
+    ],
+    "response": "Về xem điểm, bạn vui lòng liên hệ trực tiếp Phòng Đào tạo hoặc Phòng CTSV để được hướng dẫn chính xác nhất nhé! 📞",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "thông tin thi lại",
+      "tìm hiểu thi lại",
+      "hỏi về thi lại"
+    ],
+    "response": "Thông tin về thi lại luôn được cập nhật trên website trường utc2.edu.vn. Bạn cần hỏi chi tiết gì về thi lại không?",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "khi nào thi lại",
+      "thời gian thi lại",
+      "lịch thi lại"
+    ],
+    "response": "Thời gian thi lại thường theo kế hoạch năm học. Bạn theo dõi thông báo mới nhất trên cổng thông tin sinh viên nha! 📅",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "liên hệ thi lại",
+      "phòng nào phụ trách thi lại",
+      "đăng ký thi lại ở đâu"
+    ],
+    "response": "Về thi lại, bạn vui lòng liên hệ trực tiếp Phòng Đào tạo hoặc Phòng CTSV để được hướng dẫn chính xác nhất nhé! 📞",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "thông tin học lại",
+      "tìm hiểu học lại",
+      "hỏi về học lại"
+    ],
+    "response": "Thông tin về học lại luôn được cập nhật trên website trường utc2.edu.vn. Bạn cần hỏi chi tiết gì về học lại không?",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "khi nào học lại",
+      "thời gian học lại",
+      "lịch học lại"
+    ],
+    "response": "Thời gian học lại thường theo kế hoạch năm học. Bạn theo dõi thông báo mới nhất trên cổng thông tin sinh viên nha! 📅",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "liên hệ học lại",
+      "phòng nào phụ trách học lại",
+      "đăng ký học lại ở đâu"
+    ],
+    "response": "Về học lại, bạn vui lòng liên hệ trực tiếp Phòng Đào tạo hoặc Phòng CTSV để được hướng dẫn chính xác nhất nhé! 📞",
+    "priority": 1
+  },
+  {
+    "keywords": [
+      "alo",
+      "admin ơi",
+      "có đó không",
+      "có ai không"
+    ],
+    "response": "Dạ có mình đây! 🤖 Bạn cần hỏi gì về UTH không? Cứ thoải mái nha!",
+    "priority": 5
+  },
+  {
+    "keywords": [
+      "hê-lô",
+      "he lo",
+      "khỏe không",
+      "khoe khong"
+    ],
+    "response": "Mình khỏe lắm, cảm ơn bạn! 😊 Bạn thì sao? Cần mình giúp gì về trường không?",
+    "priority": 5
+  },
+  {
+    "keywords": [
+      "chào buổi sáng",
+      "chao buoi sang",
+      "trợ lý ảo"
+    ],
+    "response": "Chào buổi sáng bạn! ☀️ Chúc bạn một ngày tràn đầy năng lượng. Hỏi mình về UTH nhé!",
+    "priority": 5
+  },
+  {
+    "keywords": [
+      "xong rồi",
+      "cảm ơn nhiều",
+      "bái bai",
+      "bai bai"
+    ],
+    "response": "Không có gì! 🥰 Rất vui được giúp bạn. Hẹn gặp lại nha!",
+    "priority": 5
+  },
+  {
+    "keywords": [
+      "oke mình hiểu",
+      "hẹn gặp lại"
+    ],
+    "response": "Tuyệt! 👍 Nếu còn thắc mắc gì thì quay lại hỏi mình nhé. Chào bạn!",
+    "priority": 5
+  },
+  {
+    "keywords": [
+      "utc2",
+      "utc 2",
+      "phải là utc2 không"
+    ],
+    "response": "Đúng rồi! UTH còn được gọi là UTC2 (University of Transport HCM City 2) - tên gọi lịch sử khi trường còn là phân hiệu phía Nam. Email sinh viên vẫn dùng @student.utc2.edu.vn đó! 📧",
+    "priority": 6
+  },
+  {
+    "keywords": [
+      "metro",
+      "xây metro",
+      "tham gia metro"
+    ],
+    "response": "Chuẩn luôn! 🚇 UTH tham gia đào tạo nhân lực và tư vấn kỹ thuật cho dự án Metro TP.HCM và Sân bay Long Thành. Sinh viên Xây dựng, Hàng không, Logistics có nhiều cơ hội thực tập tại các 'siêu dự án' này!",
+    "priority": 6
+  },
+  {
+    "keywords": [
+      "vào vinfast",
+      "làm vinfast",
+      "đèo cả"
+    ],
+    "response": "Có chứ! 🚗 UTH có liên kết với VinFast (Ô tô), Đèo Cả (Logistics, Vận tải). Nhiều sinh viên được thực tập và nhận việc luôn. Học giỏi + đam mê là vào được nha!",
+    "priority": 6
+  },
+  {
+    "keywords": [
+      "võ oanh",
+      "trần não",
+      "cơ sở nào rộng",
+      "cs nao rong"
+    ],
+    "response": "Cơ sở 2 Trần Não (Thủ Đức) rộng hơn nhiều! 🌳 8 hecta xanh mát, có KTX, sân tập lái, xưởng thực hành. CS1 Võ Oanh (Bình Thạnh) nhỏ hơn nhưng gần trung tâm, đi lại tiện.",
+    "priority": 6
+  },
+  {
+    "keywords": [
+      "email utc2",
+      "student.utc2.edu.vn",
+      "tại sao email"
+    ],
+    "response": "Vì trường mình trước kia tên là UTC2 (University of Transport City 2) nè! 📧 Dù đã đổi tên thành UTH nhưng hệ thống email vẫn giữ tên cũ để đảm bảo tính liên tục. Ngầu phết đúng không? 😎",
+    "priority": 6
+  },
+  {
+    "keywords": [
+      "học phí một tín chỉ",
+      "hoc phi tin chi",
+      "bao nhiêu lúa",
+      "bao nhieu lua"
+    ],
+    "response": "Học phí hệ đại trà hiện tại là 400.000 VNĐ/tín chỉ nha! 💰 Một học kỳ khoảng 20-25 tín chỉ, tính ra khoảng 8-10 triệu/kỳ. Khá 'mềm' so với trường tư đó!",
+    "priority": 6
+  },
+  {
+    "keywords": [
+      "gpa học bổng",
+      "bao nhiêu điểm gpa",
+      "điểm gpa"
+    ],
+    "response": "Học bổng khuyến khích học tập thường yêu cầu GPA >= 3.0 (thang 4.0) nha shop! 📚 Ngoài ra còn có học bổng doanh nghiệp và hỗ trợ hoàn cảnh khó khăn không cần GPA cao lắm đâu.",
+    "priority": 6
+  },
+  {
+    "keywords": [
+      "phòng ktx",
+      "mấy người ở chung",
+      "ktx bao nhiêu người"
+    ],
+    "response": "Phòng KTX thường 5-8 người/phòng tùy loại! 🏠 Có phòng chất lượng cao 4-6 người, rộng rãi hơn. Giá đều 300k/tháng thôi, rẻ vô địch luôn!",
+    "priority": 6
+  },
+  {
+    "keywords": [
+      "cảnh báo học vụ 2 lần",
+      "bay màu",
+      "bị đuổi"
+    ],
+    "response": "Ối giời! 😰 Nếu bị cảnh báo học vụ 2 lần liên tiếp (GPA < 1.0) thì có nguy cơ bị buộc thôi học đó. Nhưng đừng lo, trường sẽ cho cơ hội cải thiện. Quan trọng là phải cố gắng học lên nha!",
+    "priority": 6
+  },
+  {
+    "keywords": [
+      "đăng ký wifi",
+      "wifi trường",
+      "tài khoản wifi"
+    ],
+    "response": "Đăng nhập WiFi trường bằng mã sinh viên (student ID) và mật khẩu do trường cấp nha! 📶 Nếu quên mật khẩu thì lên Trung tâm CNTT reset. Wifi phủ khắp trường, tốc độ ổn lắm!",
+    "priority": 6
+  },
+  {
+    "keywords": [
+      "con gái",
+      "nữ",
+      "ngành kỹ thuật",
+      "nữ học kỹ thuật"
+    ],
+    "response": "Tất nhiên rồi! 💪 Ngành kỹ thuật không phân biệt giới tính đâu. Nhiều bạn nữ học CNTT, Xây dựng, Điện... rất giỏi luôn. Quan trọng là đam mê và cố gắng thôi. Girl power! 👩‍🔧",
+    "priority": 6
+  },
+  {
+    "keywords": [
+      "logistics lương cao",
+      "lương logistics",
+      "lương có cao"
+    ],
+    "response": "Logistics ra trường lương khá cao đó! 💰 Freshers khoảng 8-12 triệu, có kinh nghiệm lên 15-25 triệu. Làm quản lý hoặc xuất nhập khẩu thì còn cao hơn nữa. Ngành đang 'hot' lắm!",
+    "priority": 6
+  },
+  {
+    "keywords": [
+      "cntt học ai",
+      "lập trình vi mạch",
+      "học về ai"
+    ],
+    "response": "CNTT ở UTH có học AI (Machine Learning, Deep Learning) và cả thiết kế vi mạch luôn! 💻 Có chuyên ngành riêng về Khoa học Dữ liệu và Thiết kế Vi mạch. Rất đón đầu xu hướng công nghệ!",
+    "priority": 6
+  },
+  {
+    "keywords": [
+      "song ngành",
+      "học 2 ngành",
+      "vừa kinh tế vừa logistics"
+    ],
+    "response": "Hiện tại UTH chưa có chương trình song ngành chính thức nha! 🎓 Nhưng bạn có thể học Văn bằng 2 sau khi tốt nghiệp ngành chính. Hoặc chọn ngành Quản trị Kinh doanh với chuyên ngành Logistics để kết hợp cả hai!",
+    "priority": 6
   }
 ]
